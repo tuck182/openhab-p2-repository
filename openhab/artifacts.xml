@@ -1,0 +1,505 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?artifactRepository version='1.1.0'?>
+<repository name="file:/Users/tuck/Dev/workspace-kepler/p2/openhab-p2-site/target/repository - artifacts" type="org.eclipse.equinox.p2.artifact.repository.simpleRepository" version="1">
+  <properties size="2">
+    <property name="p2.timestamp" value="1410018605332"/>
+    <property name="p2.compressed" value="false"/>
+  </properties>
+  <mappings size="3">
+    <rule filter="(&amp; (classifier=osgi.bundle))" output="${repoUrl}/plugins/${id}_${version}.jar"/>
+    <rule filter="(&amp; (classifier=binary))" output="${repoUrl}/binary/${id}_${version}"/>
+    <rule filter="(&amp; (classifier=org.eclipse.update.feature))" output="${repoUrl}/features/${id}_${version}.jar"/>
+  </mappings>
+  <artifacts size="70">
+    <artifact classifier="osgi.bundle" id="org.openhab.io.net" version="1.5.1">
+      <properties size="3">
+        <property name="artifact.size" value="23065"/>
+        <property name="download.size" value="23065"/>
+        <property name="download.md5" value="5203434866ea09d0b8183a017916e84d"/>
+      </properties>
+    </artifact>
+    <artifact classifier="osgi.bundle" id="org.openhab.core.library" version="1.5.1">
+      <properties size="3">
+        <property name="artifact.size" value="37452"/>
+        <property name="download.size" value="37452"/>
+        <property name="download.md5" value="0498c605350b455efb918729f49ddfec"/>
+      </properties>
+    </artifact>
+    <artifact classifier="osgi.bundle" id="org.openhab.model.script" version="1.5.1">
+      <properties size="3">
+        <property name="artifact.size" value="148630"/>
+        <property name="download.size" value="148630"/>
+        <property name="download.md5" value="7e65526a785207ac8a7ae504ee2c1270"/>
+      </properties>
+    </artifact>
+    <artifact classifier="osgi.bundle" id="org.openhab.action.xmpp" version="1.5.1">
+      <properties size="3">
+        <property name="artifact.size" value="1246010"/>
+        <property name="download.size" value="1246010"/>
+        <property name="download.md5" value="e556bf38e26ff148b3b0cde55067156b"/>
+      </properties>
+    </artifact>
+    <artifact classifier="osgi.bundle" id="org.openhab.binding.http.source" version="1.5.1">
+      <properties size="3">
+        <property name="artifact.size" value="12072"/>
+        <property name="download.size" value="12072"/>
+        <property name="download.md5" value="05ee627bd5e5c3b04a2c7b86100bb851"/>
+      </properties>
+    </artifact>
+    <artifact classifier="osgi.bundle" id="org.openhab.core.autoupdate.source" version="1.5.1">
+      <properties size="3">
+        <property name="artifact.size" value="6679"/>
+        <property name="download.size" value="6679"/>
+        <property name="download.md5" value="c8f225211d693548b836aae06ca3c172"/>
+      </properties>
+    </artifact>
+    <artifact classifier="osgi.bundle" id="org.openhab.io.servicediscovery" version="1.5.1">
+      <properties size="3">
+        <property name="artifact.size" value="198211"/>
+        <property name="download.size" value="198211"/>
+        <property name="download.md5" value="9dac48fc6f9e7888bd683189623ffc21"/>
+      </properties>
+    </artifact>
+    <artifact classifier="osgi.bundle" id="org.openhab.action.prowl" version="1.5.1">
+      <properties size="3">
+        <property name="artifact.size" value="59507"/>
+        <property name="download.size" value="59507"/>
+        <property name="download.md5" value="9ab833fbf8b4bace308f7945f938fd86"/>
+      </properties>
+    </artifact>
+    <artifact classifier="osgi.bundle" id="org.openhab.persistence.rrd4j" version="1.5.1">
+      <properties size="3">
+        <property name="artifact.size" value="618527"/>
+        <property name="download.size" value="618527"/>
+        <property name="download.md5" value="64e98d7c224d6dcab8b70086b6335a60"/>
+      </properties>
+    </artifact>
+    <artifact classifier="osgi.bundle" id="org.openhab.model.sitemap" version="1.5.1">
+      <properties size="3">
+        <property name="artifact.size" value="204475"/>
+        <property name="download.size" value="204475"/>
+        <property name="download.md5" value="6afaae55fcb072bea93a6d0d991db5ea"/>
+      </properties>
+    </artifact>
+    <artifact classifier="osgi.bundle" id="org.openhab.io.multimedia.source" version="1.5.1">
+      <properties size="3">
+        <property name="artifact.size" value="8054"/>
+        <property name="download.size" value="8054"/>
+        <property name="download.md5" value="c66062ce9bf85a06ac810b6014866192"/>
+      </properties>
+    </artifact>
+    <artifact classifier="osgi.bundle" id="org.openhab.core.scheduler.source" version="1.5.1">
+      <properties size="3">
+        <property name="artifact.size" value="2684"/>
+        <property name="download.size" value="2684"/>
+        <property name="download.md5" value="88d77fb79c410b587766f3195ffbf305"/>
+      </properties>
+    </artifact>
+    <artifact classifier="osgi.bundle" id="org.openhab.ui" version="1.5.1">
+      <properties size="3">
+        <property name="artifact.size" value="133317"/>
+        <property name="download.size" value="133317"/>
+        <property name="download.md5" value="a35a305fbe8ff19c11c2d566ae65f6a4"/>
+      </properties>
+    </artifact>
+    <artifact classifier="osgi.bundle" id="org.openhab.io.console.source" version="1.5.1">
+      <properties size="3">
+        <property name="artifact.size" value="7497"/>
+        <property name="download.size" value="7497"/>
+        <property name="download.md5" value="ca9f32a35449e676928943e2647e2549"/>
+      </properties>
+    </artifact>
+    <artifact classifier="osgi.bundle" id="org.openhab.io.rest.source" version="1.5.1">
+      <properties size="3">
+        <property name="artifact.size" value="37557"/>
+        <property name="download.size" value="37557"/>
+        <property name="download.md5" value="a479d30cd2a13342a180fc52037060e6"/>
+      </properties>
+    </artifact>
+    <artifact classifier="osgi.bundle" id="org.openhab.persistence.rrd4j.source" version="1.5.1">
+      <properties size="3">
+        <property name="artifact.size" value="10364"/>
+        <property name="download.size" value="10364"/>
+        <property name="download.md5" value="951bcbd41e06323cf906819c70ff26bf"/>
+      </properties>
+    </artifact>
+    <artifact classifier="osgi.bundle" id="org.openhab.library.tel.source" version="1.5.1">
+      <properties size="3">
+        <property name="artifact.size" value="4697"/>
+        <property name="download.size" value="4697"/>
+        <property name="download.md5" value="10ce4fc25433fd950ac54c07380ee24b"/>
+      </properties>
+    </artifact>
+    <artifact classifier="osgi.bundle" id="org.openhab.core.scriptengine.source" version="1.5.1">
+      <properties size="3">
+        <property name="artifact.size" value="10232"/>
+        <property name="download.size" value="10232"/>
+        <property name="download.md5" value="07bbc2c38d40ec52324bcf2b9677c41a"/>
+      </properties>
+    </artifact>
+    <artifact classifier="osgi.bundle" id="org.openhab.model.item" version="1.5.1">
+      <properties size="3">
+        <property name="artifact.size" value="70057"/>
+        <property name="download.size" value="70057"/>
+        <property name="download.md5" value="fee6ed13ff8e73b8133e6cb9a3928c26"/>
+      </properties>
+    </artifact>
+    <artifact classifier="osgi.bundle" id="org.openhab.binding.exec" version="1.5.1">
+      <properties size="3">
+        <property name="artifact.size" value="63766"/>
+        <property name="download.size" value="63766"/>
+        <property name="download.md5" value="a2da4eeab340c2c0e91bf8e617a378e8"/>
+      </properties>
+    </artifact>
+    <artifact classifier="osgi.bundle" id="org.openhab.binding.ntp" version="1.5.1">
+      <properties size="3">
+        <property name="artifact.size" value="10147"/>
+        <property name="download.size" value="10147"/>
+        <property name="download.md5" value="0c9239e9e2970d7b2a8a1057b0bfa88b"/>
+      </properties>
+    </artifact>
+    <artifact classifier="osgi.bundle" id="org.openhab.core.persistence.source" version="1.5.1">
+      <properties size="3">
+        <property name="artifact.size" value="14462"/>
+        <property name="download.size" value="14462"/>
+        <property name="download.md5" value="642d73b6e7a1f4586e72f25586bceb4e"/>
+      </properties>
+    </artifact>
+    <artifact classifier="osgi.bundle" id="org.openhab.io.multimedia.tts.freetts.source" version="1.5.1">
+      <properties size="3">
+        <property name="artifact.size" value="3060"/>
+        <property name="download.size" value="3060"/>
+        <property name="download.md5" value="6d2d1611ee3bdf8844e756a8c09fbd1b"/>
+      </properties>
+    </artifact>
+    <artifact classifier="osgi.bundle" id="org.openhab.core.scriptengine" version="1.5.1">
+      <properties size="3">
+        <property name="artifact.size" value="11025"/>
+        <property name="download.size" value="11025"/>
+        <property name="download.md5" value="cef3016afa50d33ebce8a6be97fedd03"/>
+      </properties>
+    </artifact>
+    <artifact classifier="osgi.bundle" id="org.openhab.model.core" version="1.5.1">
+      <properties size="3">
+        <property name="artifact.size" value="16775"/>
+        <property name="download.size" value="16775"/>
+        <property name="download.md5" value="52e20543b012b679b7b95e81d217aa45"/>
+      </properties>
+    </artifact>
+    <artifact classifier="osgi.bundle" id="org.openhab.ui.webapp" version="1.5.1">
+      <properties size="3">
+        <property name="artifact.size" value="238883"/>
+        <property name="download.size" value="238883"/>
+        <property name="download.md5" value="d81c8e6f5b4e9f961f2bff20f5796cf9"/>
+      </properties>
+    </artifact>
+    <artifact classifier="osgi.bundle" id="org.openhab.action.xbmc.source" version="1.5.1">
+      <properties size="3">
+        <property name="artifact.size" value="4741"/>
+        <property name="download.size" value="4741"/>
+        <property name="download.md5" value="bf69114346a33df117fee4fb7b9f7c69"/>
+      </properties>
+    </artifact>
+    <artifact classifier="osgi.bundle" id="org.openhab.action.xmpp.source" version="1.5.1">
+      <properties size="3">
+        <property name="artifact.size" value="9119"/>
+        <property name="download.size" value="9119"/>
+        <property name="download.md5" value="ae3b27519a0ffba77714ebf929cb606d"/>
+      </properties>
+    </artifact>
+    <artifact classifier="osgi.bundle" id="org.openhab.io.cv.source" version="1.5.1">
+      <properties size="3">
+        <property name="artifact.size" value="27269"/>
+        <property name="download.size" value="27269"/>
+        <property name="download.md5" value="881158eb9912053120ed3abead68034f"/>
+      </properties>
+    </artifact>
+    <artifact classifier="osgi.bundle" id="org.openhab.binding.http" version="1.5.1">
+      <properties size="3">
+        <property name="artifact.size" value="18841"/>
+        <property name="download.size" value="18841"/>
+        <property name="download.md5" value="15ee31f2c2fa722011863bde0f4d983c"/>
+      </properties>
+    </artifact>
+    <artifact classifier="osgi.bundle" id="org.openhab.core.transform" version="1.5.1">
+      <properties size="3">
+        <property name="artifact.size" value="21559"/>
+        <property name="download.size" value="21559"/>
+        <property name="download.md5" value="8c85618bf259dab1fe386cd4b6171ba4"/>
+      </properties>
+    </artifact>
+    <artifact classifier="osgi.bundle" id="org.openhab.io.multimedia" version="1.5.1">
+      <properties size="3">
+        <property name="artifact.size" value="110421"/>
+        <property name="download.size" value="110421"/>
+        <property name="download.md5" value="542a893af94d80e946cb6d5728646f92"/>
+      </properties>
+    </artifact>
+    <artifact classifier="osgi.bundle" id="org.openhab.core.persistence" version="1.5.1">
+      <properties size="3">
+        <property name="artifact.size" value="516127"/>
+        <property name="download.size" value="516127"/>
+        <property name="download.md5" value="c0014ee438ba76aadca08d69bee64709"/>
+      </properties>
+    </artifact>
+    <artifact classifier="osgi.bundle" id="org.openhab.io.servicediscovery.source" version="1.5.1">
+      <properties size="3">
+        <property name="artifact.size" value="4952"/>
+        <property name="download.size" value="4952"/>
+        <property name="download.md5" value="d51bd51cf4c4180bc02b1f4164b3856a"/>
+      </properties>
+    </artifact>
+    <artifact classifier="osgi.bundle" id="org.openhab.binding.mpd.source" version="1.5.1">
+      <properties size="3">
+        <property name="artifact.size" value="13268"/>
+        <property name="download.size" value="13268"/>
+        <property name="download.md5" value="b7358850ed9a22a75896f2585d2d30f7"/>
+      </properties>
+    </artifact>
+    <artifact classifier="osgi.bundle" id="org.openhab.core" version="1.5.1">
+      <properties size="3">
+        <property name="artifact.size" value="45199"/>
+        <property name="download.size" value="45199"/>
+        <property name="download.md5" value="2043e38a050762e3ceca545e4226afc0"/>
+      </properties>
+    </artifact>
+    <artifact classifier="osgi.bundle" id="org.openhab.core.transform.source" version="1.5.1">
+      <properties size="3">
+        <property name="artifact.size" value="15275"/>
+        <property name="download.size" value="15275"/>
+        <property name="download.md5" value="95fc5538ffb2c7e0e8eb5dcb579806c4"/>
+      </properties>
+    </artifact>
+    <artifact classifier="osgi.bundle" id="org.openhab.binding.exec.source" version="1.5.1">
+      <properties size="3">
+        <property name="artifact.size" value="11426"/>
+        <property name="download.size" value="11426"/>
+        <property name="download.md5" value="f07e74a81eb0e4edf97f96e370f8f96b"/>
+      </properties>
+    </artifact>
+    <artifact classifier="osgi.bundle" id="org.openhab.action.xbmc" version="1.5.1">
+      <properties size="3">
+        <property name="artifact.size" value="6330"/>
+        <property name="download.size" value="6330"/>
+        <property name="download.md5" value="97d213544d4ef6f79afe0193de636db4"/>
+      </properties>
+    </artifact>
+    <artifact classifier="osgi.bundle" id="org.openhab.binding.mpd" version="1.5.1">
+      <properties size="3">
+        <property name="artifact.size" value="98921"/>
+        <property name="download.size" value="98921"/>
+        <property name="download.md5" value="03cd6b0c57f7e5ee3598c4e0efd33f41"/>
+      </properties>
+    </artifact>
+    <artifact classifier="osgi.bundle" id="org.openhab.core.autoupdate" version="1.5.1">
+      <properties size="3">
+        <property name="artifact.size" value="9496"/>
+        <property name="download.size" value="9496"/>
+        <property name="download.md5" value="5a688a93f874216185a507ba3059b7a6"/>
+      </properties>
+    </artifact>
+    <artifact classifier="osgi.bundle" id="org.openhab.io.rest" version="1.5.1">
+      <properties size="3">
+        <property name="artifact.size" value="57363"/>
+        <property name="download.size" value="57363"/>
+        <property name="download.md5" value="78933859f431ab147898383790035a07"/>
+      </properties>
+    </artifact>
+    <artifact classifier="osgi.bundle" id="org.openhab.core.library.source" version="1.5.1">
+      <properties size="3">
+        <property name="artifact.size" value="22409"/>
+        <property name="download.size" value="22409"/>
+        <property name="download.md5" value="953dc4b368210dc268c75da711715318"/>
+      </properties>
+    </artifact>
+    <artifact classifier="osgi.bundle" id="org.openhab.io.multimedia.tts.freetts" version="1.5.1">
+      <properties size="3">
+        <property name="artifact.size" value="9175339"/>
+        <property name="download.size" value="9175339"/>
+        <property name="download.md5" value="2f263925a8af3cbb52f62a5eaa59f544"/>
+      </properties>
+    </artifact>
+    <artifact classifier="osgi.bundle" id="org.openhab.core.source" version="1.5.1">
+      <properties size="3">
+        <property name="artifact.size" value="39146"/>
+        <property name="download.size" value="39146"/>
+        <property name="download.md5" value="0fb777a9f68cd193c95d10a3e3026969"/>
+      </properties>
+    </artifact>
+    <artifact classifier="osgi.bundle" id="org.openhab.core.scheduler" version="1.5.1">
+      <properties size="3">
+        <property name="artifact.size" value="543892"/>
+        <property name="download.size" value="543892"/>
+        <property name="download.md5" value="2e22559e84020d45d85e37298cd66bb5"/>
+      </properties>
+    </artifact>
+    <artifact classifier="osgi.bundle" id="org.openhab.ui.source" version="1.5.1">
+      <properties size="3">
+        <property name="artifact.size" value="25007"/>
+        <property name="download.size" value="25007"/>
+        <property name="download.md5" value="a83ae9d9e9c1726cbc41f7cac625ef6b"/>
+      </properties>
+    </artifact>
+    <artifact classifier="osgi.bundle" id="org.openhab.binding.ntp.source" version="1.5.1">
+      <properties size="3">
+        <property name="artifact.size" value="6697"/>
+        <property name="download.size" value="6697"/>
+        <property name="download.md5" value="fc5ecd54c4776a63252f41d2fbed99b1"/>
+      </properties>
+    </artifact>
+    <artifact classifier="osgi.bundle" id="org.openhab.io.rest.lib" version="1.5.1">
+      <properties size="3">
+        <property name="artifact.size" value="3057017"/>
+        <property name="download.size" value="3057017"/>
+        <property name="download.md5" value="1073a85af2c4f5e87b2c5a574e9b8377"/>
+      </properties>
+    </artifact>
+    <artifact classifier="osgi.bundle" id="org.openhab.io.net.source" version="1.5.1">
+      <properties size="3">
+        <property name="artifact.size" value="16321"/>
+        <property name="download.size" value="16321"/>
+        <property name="download.md5" value="d9c53cc29d2211e827180bc4359fe238"/>
+      </properties>
+    </artifact>
+    <artifact classifier="osgi.bundle" id="org.openhab.action.twitter.source" version="1.5.1">
+      <properties size="3">
+        <property name="artifact.size" value="7067"/>
+        <property name="download.size" value="7067"/>
+        <property name="download.md5" value="2c823988c00aee80ba8b6016538ebf50"/>
+      </properties>
+    </artifact>
+    <artifact classifier="osgi.bundle" id="org.openhab.model.persistence" version="1.5.1">
+      <properties size="3">
+        <property name="artifact.size" value="84912"/>
+        <property name="download.size" value="84912"/>
+        <property name="download.md5" value="f65be2b075531bb335b4d704b25faa80"/>
+      </properties>
+    </artifact>
+    <artifact classifier="osgi.bundle" id="org.openhab.action.twitter" version="1.5.1">
+      <properties size="3">
+        <property name="artifact.size" value="278718"/>
+        <property name="download.size" value="278718"/>
+        <property name="download.md5" value="b3cb259da0870ce5914262567a96e689"/>
+      </properties>
+    </artifact>
+    <artifact classifier="osgi.bundle" id="org.openhab.io.console" version="1.5.1">
+      <properties size="3">
+        <property name="artifact.size" value="11922"/>
+        <property name="download.size" value="11922"/>
+        <property name="download.md5" value="103d6c3de0d72c1aa7cf3d61cd1cf8ce"/>
+      </properties>
+    </artifact>
+    <artifact classifier="osgi.bundle" id="org.openhab.action.prowl.source" version="1.5.1">
+      <properties size="3">
+        <property name="artifact.size" value="5371"/>
+        <property name="download.size" value="5371"/>
+        <property name="download.md5" value="2f8f9ac611bfd3688c0fad9cff641df6"/>
+      </properties>
+    </artifact>
+    <artifact classifier="osgi.bundle" id="org.openhab.config.core.source" version="1.5.1">
+      <properties size="3">
+        <property name="artifact.size" value="6990"/>
+        <property name="download.size" value="6990"/>
+        <property name="download.md5" value="664e918979a6cb9053c504387ef6b3e2"/>
+      </properties>
+    </artifact>
+    <artifact classifier="osgi.bundle" id="org.openhab.action.mail" version="1.5.1">
+      <properties size="3">
+        <property name="artifact.size" value="38348"/>
+        <property name="download.size" value="38348"/>
+        <property name="download.md5" value="220487377ae1da39782db679788893f8"/>
+      </properties>
+    </artifact>
+    <artifact classifier="osgi.bundle" id="org.openhab.model.core.source" version="1.5.1">
+      <properties size="3">
+        <property name="artifact.size" value="10978"/>
+        <property name="download.size" value="10978"/>
+        <property name="download.md5" value="4ebf01045aa294d0933019a33426a528"/>
+      </properties>
+    </artifact>
+    <artifact classifier="osgi.bundle" id="org.openhab.config.core" version="1.5.1">
+      <properties size="3">
+        <property name="artifact.size" value="10742"/>
+        <property name="download.size" value="10742"/>
+        <property name="download.md5" value="7d401949a6f70ae50aed9b7269064032"/>
+      </properties>
+    </artifact>
+    <artifact classifier="osgi.bundle" id="org.openhab.model.rule" version="1.5.1">
+      <properties size="3">
+        <property name="artifact.size" value="176692"/>
+        <property name="download.size" value="176692"/>
+        <property name="download.md5" value="15f8d6cee085e0e45d742888b0129664"/>
+      </properties>
+    </artifact>
+    <artifact classifier="osgi.bundle" id="org.openhab.library.tel" version="1.5.1">
+      <properties size="3">
+        <property name="artifact.size" value="6417"/>
+        <property name="download.size" value="6417"/>
+        <property name="download.md5" value="47b3455801402a5cd6fd608e829dfcdc"/>
+      </properties>
+    </artifact>
+    <artifact classifier="osgi.bundle" id="org.apache.felix.fileinstall" version="3.2.6">
+      <properties size="3">
+        <property name="artifact.size" value="98183"/>
+        <property name="download.size" value="98183"/>
+        <property name="download.md5" value="ae15b17abf76ee630965a92b668198e8"/>
+      </properties>
+    </artifact>
+    <artifact classifier="osgi.bundle" id="org.openhab.io.monitor.source" version="1.5.1">
+      <properties size="3">
+        <property name="artifact.size" value="2982"/>
+        <property name="download.size" value="2982"/>
+        <property name="download.md5" value="7e824d4708c0009f9fb4db1cec04416f"/>
+      </properties>
+    </artifact>
+    <artifact classifier="osgi.bundle" id="org.apache.felix.fileinstall.source" version="3.2.6">
+      <properties size="3">
+        <property name="artifact.size" value="45679"/>
+        <property name="download.size" value="45679"/>
+        <property name="download.md5" value="c7191c695860db8198f2aec10f36c2bd"/>
+      </properties>
+    </artifact>
+    <artifact classifier="osgi.bundle" id="org.openhab.io.cv" version="1.5.1">
+      <properties size="3">
+        <property name="artifact.size" value="639710"/>
+        <property name="download.size" value="639710"/>
+        <property name="download.md5" value="e27a4c738d068ad49d30c79095978b59"/>
+      </properties>
+    </artifact>
+    <artifact classifier="osgi.bundle" id="org.openhab.io.monitor" version="1.5.1">
+      <properties size="3">
+        <property name="artifact.size" value="4554"/>
+        <property name="download.size" value="4554"/>
+        <property name="download.md5" value="82f0ed497ddf368deeb6e44ef79f9b43"/>
+      </properties>
+    </artifact>
+    <artifact classifier="osgi.bundle" id="org.openhab.action.mail.source" version="1.5.1">
+      <properties size="3">
+        <property name="artifact.size" value="5498"/>
+        <property name="download.size" value="5498"/>
+        <property name="download.md5" value="a87bf71db9a1d27f17e86195d58d00d8"/>
+      </properties>
+    </artifact>
+    <artifact classifier="osgi.bundle" id="org.openhab.persistence.db4o" version="1.5.1">
+      <properties size="3">
+        <property name="artifact.size" value="8258"/>
+        <property name="download.size" value="8258"/>
+        <property name="download.md5" value="aa00bcfd0aa571f8c8a9199b14cb2478"/>
+      </properties>
+    </artifact>
+    <artifact classifier="osgi.bundle" id="org.openhab.io.transport.serial" version="1.5.1">
+      <properties size="3">
+        <property name="artifact.size" value="527857"/>
+        <property name="download.size" value="527857"/>
+        <property name="download.md5" value="024c8e37d47fdd3f218922491f82cc87"/>
+      </properties>
+    </artifact>
+    <artifact classifier="osgi.bundle" id="org.openhab.ui.webapp.source" version="1.5.1">
+      <properties size="3">
+        <property name="artifact.size" value="29130"/>
+        <property name="download.size" value="29130"/>
+        <property name="download.md5" value="4bf1f0c9e45c540643cbec1bcaa8e37e"/>
+      </properties>
+    </artifact>
+  </artifacts>
+</repository>

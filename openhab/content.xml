@@ -1,0 +1,2343 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?metadataRepository version='1.1.0'?>
+<repository name='file:/Users/tuck/Dev/workspace-kepler/p2/openhab-p2-site/target/repository - metadata' type='org.eclipse.equinox.internal.p2.metadata.repository.LocalMetadataRepository' version='1.0.0'>
+  <properties size='2'>
+    <property name='p2.timestamp' value='1410018607051'/>
+    <property name='p2.compressed' value='false'/>
+  </properties>
+  <units size='71'>
+    <unit id='org.openhab.io.multimedia.tts.freetts.source' version='1.5.1' singleton='false'>
+      <update id='org.openhab.io.multimedia.tts.freetts.source' range='[0.0.0,1.5.1)' severity='0'/>
+      <properties size='3'>
+        <property name='org.eclipse.equinox.p2.name' value='org.openhab.io.multimedia.tts.freetts.source'/>
+        <property name='org.eclipse.equinox.p2.provider' value='%bundleVendor'/>
+        <property name='org.eclipse.equinox.p2.bundle.localization' value='plugin'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.openhab.io.multimedia.tts.freetts.source' version='1.5.1'/>
+        <provided namespace='osgi.bundle' name='org.openhab.io.multimedia.tts.freetts.source' version='1.5.1'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='source' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.openhab.io.multimedia.tts.freetts.source' version='1.5.1'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.openhab.io.multimedia.tts.freetts.source&#xA;Bundle-Version: 1.5.1
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.openhab.core.scheduler.source' version='1.5.1' singleton='false'>
+      <update id='org.openhab.core.scheduler.source' range='[0.0.0,1.5.1)' severity='0'/>
+      <properties size='3'>
+        <property name='org.eclipse.equinox.p2.name' value='org.openhab.core.scheduler.source'/>
+        <property name='org.eclipse.equinox.p2.provider' value='%bundleVendor'/>
+        <property name='org.eclipse.equinox.p2.bundle.localization' value='plugin'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.openhab.core.scheduler.source' version='1.5.1'/>
+        <provided namespace='osgi.bundle' name='org.openhab.core.scheduler.source' version='1.5.1'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='source' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.openhab.core.scheduler.source' version='1.5.1'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.openhab.core.scheduler.source&#xA;Bundle-Version: 1.5.1
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.openhab.action.mail.source' version='1.5.1' singleton='false'>
+      <update id='org.openhab.action.mail.source' range='[0.0.0,1.5.1)' severity='0'/>
+      <properties size='3'>
+        <property name='org.eclipse.equinox.p2.name' value='org.openhab.action.mail.source'/>
+        <property name='org.eclipse.equinox.p2.provider' value='%bundleVendor'/>
+        <property name='org.eclipse.equinox.p2.bundle.localization' value='plugin'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.openhab.action.mail.source' version='1.5.1'/>
+        <provided namespace='osgi.bundle' name='org.openhab.action.mail.source' version='1.5.1'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='source' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.openhab.action.mail.source' version='1.5.1'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.openhab.action.mail.source&#xA;Bundle-Version: 1.5.1
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.openhab.io.multimedia' version='1.5.1' singleton='false'>
+      <update id='org.openhab.io.multimedia' range='[0.0.0,1.5.1)' severity='0'/>
+      <properties size='2'>
+        <property name='org.eclipse.equinox.p2.name' value='openHAB Multimedia I/O Bundle'/>
+        <property name='org.eclipse.equinox.p2.provider' value='openHAB.org'/>
+      </properties>
+      <provides size='5'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.openhab.io.multimedia' version='1.5.1'/>
+        <provided namespace='osgi.bundle' name='org.openhab.io.multimedia' version='1.5.1'/>
+        <provided namespace='java.package' name='org.openhab.io.multimedia.actions' version='0.0.0'/>
+        <provided namespace='java.package' name='org.openhab.io.multimedia.tts' version='0.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <requires size='8'>
+        <required namespace='java.package' name='org.apache.commons.collections' range='0.0.0'/>
+        <required namespace='java.package' name='org.apache.commons.io' range='0.0.0'/>
+        <required namespace='java.package' name='org.apache.commons.lang' range='0.0.0'/>
+        <required namespace='java.package' name='org.openhab.core.library.types' range='0.0.0'/>
+        <required namespace='java.package' name='org.openhab.core.scriptengine' range='0.0.0'/>
+        <required namespace='java.package' name='org.openhab.core.scriptengine.action' range='0.0.0'/>
+        <required namespace='java.package' name='org.osgi.framework' range='0.0.0'/>
+        <required namespace='java.package' name='org.slf4j' range='0.0.0'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.openhab.io.multimedia' version='1.5.1'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.openhab.io.multimedia&#xA;Bundle-Version: 1.5.1
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.openhab.binding.http.source' version='1.5.1' singleton='false'>
+      <update id='org.openhab.binding.http.source' range='[0.0.0,1.5.1)' severity='0'/>
+      <properties size='3'>
+        <property name='org.eclipse.equinox.p2.name' value='org.openhab.binding.http.source'/>
+        <property name='org.eclipse.equinox.p2.provider' value='%bundleVendor'/>
+        <property name='org.eclipse.equinox.p2.bundle.localization' value='plugin'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.openhab.binding.http.source' version='1.5.1'/>
+        <provided namespace='osgi.bundle' name='org.openhab.binding.http.source' version='1.5.1'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='source' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.openhab.binding.http.source' version='1.5.1'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.openhab.binding.http.source&#xA;Bundle-Version: 1.5.1
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.openhab.core.scriptengine' version='1.5.1' singleton='false'>
+      <update id='org.openhab.core.scriptengine' range='[0.0.0,1.5.1)' severity='0'/>
+      <properties size='2'>
+        <property name='org.eclipse.equinox.p2.name' value='openHAB Script Engine'/>
+        <property name='org.eclipse.equinox.p2.provider' value='openHAB.org'/>
+      </properties>
+      <provides size='5'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.openhab.core.scriptengine' version='1.5.1'/>
+        <provided namespace='osgi.bundle' name='org.openhab.core.scriptengine' version='1.5.1'/>
+        <provided namespace='java.package' name='org.openhab.core.scriptengine' version='0.0.0'/>
+        <provided namespace='java.package' name='org.openhab.core.scriptengine.action' version='0.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <requires size='6'>
+        <required namespace='java.package' name='org.eclipse.emf.ecore.resource' range='0.0.0'/>
+        <required namespace='java.package' name='org.eclipse.xtext.diagnostics' range='0.0.0'/>
+        <required namespace='java.package' name='org.eclipse.xtext.validation' range='0.0.0'/>
+        <required namespace='java.package' name='org.eclipse.xtext.xbase' range='0.0.0'/>
+        <required namespace='java.package' name='org.eclipse.xtext.xbase.interpreter' range='0.0.0'/>
+        <required namespace='java.package' name='org.slf4j' range='0.0.0'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.openhab.core.scriptengine' version='1.5.1'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.openhab.core.scriptengine&#xA;Bundle-Version: 1.5.1
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.openhab.action.twitter.source' version='1.5.1' singleton='false'>
+      <update id='org.openhab.action.twitter.source' range='[0.0.0,1.5.1)' severity='0'/>
+      <properties size='3'>
+        <property name='org.eclipse.equinox.p2.name' value='org.openhab.action.twitter.source'/>
+        <property name='org.eclipse.equinox.p2.provider' value='%bundleVendor'/>
+        <property name='org.eclipse.equinox.p2.bundle.localization' value='plugin'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.openhab.action.twitter.source' version='1.5.1'/>
+        <provided namespace='osgi.bundle' name='org.openhab.action.twitter.source' version='1.5.1'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='source' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.openhab.action.twitter.source' version='1.5.1'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.openhab.action.twitter.source&#xA;Bundle-Version: 1.5.1
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.openhab.binding.exec.source' version='1.5.1' singleton='false'>
+      <update id='org.openhab.binding.exec.source' range='[0.0.0,1.5.1)' severity='0'/>
+      <properties size='3'>
+        <property name='org.eclipse.equinox.p2.name' value='org.openhab.binding.exec.source'/>
+        <property name='org.eclipse.equinox.p2.provider' value='%bundleVendor'/>
+        <property name='org.eclipse.equinox.p2.bundle.localization' value='plugin'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.openhab.binding.exec.source' version='1.5.1'/>
+        <provided namespace='osgi.bundle' name='org.openhab.binding.exec.source' version='1.5.1'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='source' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.openhab.binding.exec.source' version='1.5.1'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.openhab.binding.exec.source&#xA;Bundle-Version: 1.5.1
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.openhab.model.persistence' version='1.5.1' singleton='false'>
+      <update id='org.openhab.model.persistence' range='[0.0.0,1.5.1)' severity='0'/>
+      <properties size='3'>
+        <property name='org.eclipse.equinox.p2.name' value='org.openhab.model.persistence; singleton:=true source'/>
+        <property name='org.eclipse.equinox.p2.provider' value='%bundleVendor'/>
+        <property name='org.eclipse.equinox.p2.bundle.localization' value='plugin'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.openhab.model.persistence' version='1.5.1'/>
+        <provided namespace='osgi.bundle' name='org.openhab.model.persistence' version='1.5.1'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='source' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.openhab.model.persistence' version='1.5.1'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.openhab.model.persistence; singleton:=true.source&#xA;Bundle-Version: 1.5.1
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.openhab.config.core.source' version='1.5.1' singleton='false'>
+      <update id='org.openhab.config.core.source' range='[0.0.0,1.5.1)' severity='0'/>
+      <properties size='3'>
+        <property name='org.eclipse.equinox.p2.name' value='org.openhab.config.core.source'/>
+        <property name='org.eclipse.equinox.p2.provider' value='%bundleVendor'/>
+        <property name='org.eclipse.equinox.p2.bundle.localization' value='plugin'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.openhab.config.core.source' version='1.5.1'/>
+        <provided namespace='osgi.bundle' name='org.openhab.config.core.source' version='1.5.1'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='source' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.openhab.config.core.source' version='1.5.1'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.openhab.config.core.source&#xA;Bundle-Version: 1.5.1
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.openhab.action.mail' version='1.5.1' singleton='false'>
+      <update id='org.openhab.action.mail' range='[0.0.0,1.5.1)' severity='0'/>
+      <properties size='4'>
+        <property name='org.eclipse.equinox.p2.name' value='openHAB Mail Action'/>
+        <property name='org.eclipse.equinox.p2.description' value='This is the Mail action of the open Home Automation Bus (openHAB)'/>
+        <property name='org.eclipse.equinox.p2.provider' value='openHAB.org'/>
+        <property name='org.eclipse.equinox.p2.doc.url' value='http://www.openhab.org'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.openhab.action.mail' version='1.5.1'/>
+        <provided namespace='osgi.bundle' name='org.openhab.action.mail' version='1.5.1'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <requires size='12'>
+        <required namespace='java.package' name='javax.mail' range='1.4.0'/>
+        <required namespace='java.package' name='javax.mail.internet' range='1.4.0'/>
+        <required namespace='java.package' name='org.apache.commons.lang' range='0.0.0'/>
+        <required namespace='java.package' name='org.openhab.core.items' range='0.0.0'/>
+        <required namespace='java.package' name='org.openhab.core.library.items' range='0.0.0'/>
+        <required namespace='java.package' name='org.openhab.core.library.types' range='0.0.0'/>
+        <required namespace='java.package' name='org.openhab.core.scriptengine.action' range='0.0.0'/>
+        <required namespace='java.package' name='org.openhab.core.types' range='0.0.0'/>
+        <required namespace='java.package' name='org.osgi.framework' range='0.0.0'/>
+        <required namespace='java.package' name='org.osgi.service.cm' range='0.0.0'/>
+        <required namespace='java.package' name='org.osgi.service.component' range='0.0.0'/>
+        <required namespace='java.package' name='org.slf4j' range='0.0.0'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.openhab.action.mail' version='1.5.1'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.openhab.action.mail&#xA;Bundle-Version: 1.5.1
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.openhab.core.persistence' version='1.5.1' singleton='false'>
+      <update id='org.openhab.core.persistence' range='[0.0.0,1.5.1)' severity='0'/>
+      <properties size='3'>
+        <property name='org.eclipse.equinox.p2.name' value='openHAB Core Persistence'/>
+        <property name='org.eclipse.equinox.p2.provider' value='openHAB.org'/>
+        <property name='org.eclipse.equinox.p2.doc.url' value='http://www.openhab.org'/>
+      </properties>
+      <provides size='10'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.openhab.core.persistence' version='1.5.1'/>
+        <provided namespace='osgi.bundle' name='org.openhab.core.persistence' version='1.5.1'/>
+        <provided namespace='java.package' name='org.joda.time' version='0.0.0'/>
+        <provided namespace='java.package' name='org.joda.time.base' version='0.0.0'/>
+        <provided namespace='java.package' name='org.joda.time.chrono' version='0.0.0'/>
+        <provided namespace='java.package' name='org.joda.time.field' version='0.0.0'/>
+        <provided namespace='java.package' name='org.joda.time.format' version='0.0.0'/>
+        <provided namespace='java.package' name='org.openhab.core.persistence' version='0.0.0'/>
+        <provided namespace='java.package' name='org.openhab.core.persistence.extensions' version='0.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <requires size='23'>
+        <required namespace='osgi.bundle' name='org.apache.commons.logging' range='1.0.4'/>
+        <required namespace='java.package' name='org.apache.commons.lang' range='0.0.0'/>
+        <required namespace='java.package' name='org.eclipse.emf.common.util' range='0.0.0'/>
+        <required namespace='java.package' name='org.eclipse.emf.ecore' range='0.0.0'/>
+        <required namespace='java.package' name='org.eclipse.emf.ecore.resource' range='0.0.0'/>
+        <required namespace='java.package' name='org.eclipse.emf.ecore.util' range='0.0.0'/>
+        <required namespace='java.package' name='org.openhab.core.events' range='0.0.0'/>
+        <required namespace='java.package' name='org.openhab.core.items' range='0.0.0'/>
+        <required namespace='java.package' name='org.openhab.core.library.types' range='0.0.0'/>
+        <required namespace='java.package' name='org.openhab.core.types' range='0.0.0'/>
+        <required namespace='java.package' name='org.openhab.model.core' range='0.0.0'/>
+        <required namespace='java.package' name='org.openhab.model.items' range='0.0.0'/>
+        <required namespace='java.package' name='org.openhab.model.persistence.persistence' range='0.0.0'/>
+        <required namespace='java.package' name='org.openhab.model.persistence.scoping' range='0.0.0'/>
+        <required namespace='java.package' name='org.osgi.framework' range='0.0.0'/>
+        <required namespace='java.package' name='org.osgi.service.cm' range='0.0.0'/>
+        <required namespace='java.package' name='org.osgi.service.event' range='0.0.0'/>
+        <required namespace='java.package' name='org.osgi.util.tracker' range='1.5.0'/>
+        <required namespace='java.package' name='org.quartz' range='0.0.0'/>
+        <required namespace='java.package' name='org.quartz.impl' range='0.0.0'/>
+        <required namespace='java.package' name='org.quartz.impl.matchers' range='0.0.0'/>
+        <required namespace='java.package' name='org.quartz.utils' range='0.0.0'/>
+        <required namespace='java.package' name='org.slf4j' range='0.0.0'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.openhab.core.persistence' version='1.5.1'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.openhab.core.persistence&#xA;Bundle-Version: 1.5.1
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.openhab.core.persistence.source' version='1.5.1' singleton='false'>
+      <update id='org.openhab.core.persistence.source' range='[0.0.0,1.5.1)' severity='0'/>
+      <properties size='3'>
+        <property name='org.eclipse.equinox.p2.name' value='org.openhab.core.persistence.source'/>
+        <property name='org.eclipse.equinox.p2.provider' value='%bundleVendor'/>
+        <property name='org.eclipse.equinox.p2.bundle.localization' value='plugin'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.openhab.core.persistence.source' version='1.5.1'/>
+        <provided namespace='osgi.bundle' name='org.openhab.core.persistence.source' version='1.5.1'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='source' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.openhab.core.persistence.source' version='1.5.1'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.openhab.core.persistence.source&#xA;Bundle-Version: 1.5.1
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.openhab.model.script' version='1.5.1' singleton='false'>
+      <update id='org.openhab.model.script' range='[0.0.0,1.5.1)' severity='0'/>
+      <properties size='3'>
+        <property name='org.eclipse.equinox.p2.name' value='org.openhab.model.script; singleton:=true source'/>
+        <property name='org.eclipse.equinox.p2.provider' value='%bundleVendor'/>
+        <property name='org.eclipse.equinox.p2.bundle.localization' value='plugin'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.openhab.model.script' version='1.5.1'/>
+        <provided namespace='osgi.bundle' name='org.openhab.model.script' version='1.5.1'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='source' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.openhab.model.script' version='1.5.1'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.openhab.model.script; singleton:=true.source&#xA;Bundle-Version: 1.5.1
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.openhab.ui.webapp' version='1.5.1' singleton='false'>
+      <update id='org.openhab.ui.webapp' range='[0.0.0,1.5.1)' severity='0'/>
+      <properties size='4'>
+        <property name='org.eclipse.equinox.p2.name' value='openHAB WebApp UI'/>
+        <property name='org.eclipse.equinox.p2.description' value='This is the runtime component of the open Home Automation Bus (openHAB)'/>
+        <property name='org.eclipse.equinox.p2.provider' value='openHAB.org'/>
+        <property name='org.eclipse.equinox.p2.doc.url' value='http://www.openhab.org'/>
+      </properties>
+      <provides size='4'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.openhab.ui.webapp' version='1.5.1'/>
+        <provided namespace='osgi.bundle' name='org.openhab.ui.webapp' version='1.5.1'/>
+        <provided namespace='java.package' name='org.openhab.ui.webapp.render' version='0.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <requires size='22'>
+        <required namespace='osgi.bundle' name='javax.servlet' range='0.0.0'/>
+        <required namespace='java.package' name='org.apache.commons.io' range='0.0.0'/>
+        <required namespace='java.package' name='org.apache.commons.lang' range='0.0.0'/>
+        <required namespace='java.package' name='org.apache.commons.net.util' range='0.0.0'/>
+        <required namespace='java.package' name='org.eclipse.emf.common.util' range='0.0.0'/>
+        <required namespace='java.package' name='org.eclipse.emf.ecore' range='0.0.0'/>
+        <required namespace='java.package' name='org.eclipse.emf.ecore.resource' range='0.0.0'/>
+        <required namespace='java.package' name='org.eclipse.jetty.plus.jaas.callback' range='0.0.0'/>
+        <required namespace='java.package' name='org.eclipse.jetty.plus.jaas.spi' range='0.0.0'/>
+        <required namespace='java.package' name='org.openhab.core.events' range='0.0.0'/>
+        <required namespace='java.package' name='org.openhab.core.items' range='0.0.0'/>
+        <required namespace='java.package' name='org.openhab.core.library.items' range='0.0.0'/>
+        <required namespace='java.package' name='org.openhab.core.library.types' range='0.0.0'/>
+        <required namespace='java.package' name='org.openhab.core.transform' range='0.0.0'/>
+        <required namespace='java.package' name='org.openhab.core.types' range='0.0.0'/>
+        <required namespace='java.package' name='org.openhab.io.net.http' range='0.0.0'/>
+        <required namespace='java.package' name='org.openhab.model.sitemap' range='0.0.0'/>
+        <required namespace='java.package' name='org.openhab.ui.items' range='0.0.0'/>
+        <required namespace='java.package' name='org.osgi.framework' range='0.0.0'/>
+        <required namespace='java.package' name='org.osgi.service.component' range='0.0.0'/>
+        <required namespace='java.package' name='org.osgi.service.http' range='0.0.0'/>
+        <required namespace='java.package' name='org.slf4j' range='0.0.0'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.openhab.ui.webapp' version='1.5.1'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.openhab.ui.webapp&#xA;Bundle-Version: 1.5.1
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.openhab.binding.exec' version='1.5.1' singleton='false'>
+      <update id='org.openhab.binding.exec' range='[0.0.0,1.5.1)' severity='0'/>
+      <properties size='4'>
+        <property name='org.eclipse.equinox.p2.name' value='openHAB Exec Binding'/>
+        <property name='org.eclipse.equinox.p2.description' value='This is the Exec binding of the open Home Automation Bus (openHAB)'/>
+        <property name='org.eclipse.equinox.p2.provider' value='openHAB.org'/>
+        <property name='org.eclipse.equinox.p2.doc.url' value='http://www.openhab.org'/>
+      </properties>
+      <provides size='4'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.openhab.binding.exec' version='1.5.1'/>
+        <provided namespace='osgi.bundle' name='org.openhab.binding.exec' version='1.5.1'/>
+        <provided namespace='java.package' name='org.openhab.binding.exec' version='0.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <requires size='14'>
+        <required namespace='java.package' name='org.apache.commons.lang' range='0.0.0'/>
+        <required namespace='java.package' name='org.openhab.core.binding' range='0.0.0'/>
+        <required namespace='java.package' name='org.openhab.core.events' range='0.0.0'/>
+        <required namespace='java.package' name='org.openhab.core.items' range='0.0.0'/>
+        <required namespace='java.package' name='org.openhab.core.library.items' range='0.0.0'/>
+        <required namespace='java.package' name='org.openhab.core.library.types' range='0.0.0'/>
+        <required namespace='java.package' name='org.openhab.core.transform' range='0.0.0'/>
+        <required namespace='java.package' name='org.openhab.core.types' range='0.0.0'/>
+        <required namespace='java.package' name='org.openhab.model.item.binding' range='0.0.0'/>
+        <required namespace='java.package' name='org.osgi.framework' range='0.0.0'/>
+        <required namespace='java.package' name='org.osgi.service.cm' range='0.0.0'/>
+        <required namespace='java.package' name='org.osgi.service.component' range='0.0.0'/>
+        <required namespace='java.package' name='org.osgi.service.event' range='0.0.0'/>
+        <required namespace='java.package' name='org.slf4j' range='0.0.0'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.openhab.binding.exec' version='1.5.1'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.openhab.binding.exec&#xA;Bundle-Version: 1.5.1
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.openhab.core.transform' version='1.5.1' singleton='false'>
+      <update id='org.openhab.core.transform' range='[0.0.0,1.5.1)' severity='0'/>
+      <properties size='4'>
+        <property name='org.eclipse.equinox.p2.name' value='openHAB Transformation Service'/>
+        <property name='org.eclipse.equinox.p2.description' value='This is the Transformation Service of the open Home Automation Bus (openHAB)'/>
+        <property name='org.eclipse.equinox.p2.provider' value='openHAB.org'/>
+        <property name='org.eclipse.equinox.p2.doc.url' value='http://www.openhab.org'/>
+      </properties>
+      <provides size='5'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.openhab.core.transform' version='1.5.1'/>
+        <provided namespace='osgi.bundle' name='org.openhab.core.transform' version='1.5.1'/>
+        <provided namespace='java.package' name='org.openhab.core.transform' version='0.0.0'/>
+        <provided namespace='java.package' name='org.openhab.core.transform.actions' version='0.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <requires size='22'>
+        <required namespace='java.package' name='com.google.common.base' range='0.0.0'/>
+        <required namespace='java.package' name='com.google.common.collect' range='0.0.0'/>
+        <required namespace='java.package' name='org.apache.commons.collections' range='0.0.0'/>
+        <required namespace='java.package' name='org.apache.commons.collections.list' range='0.0.0'/>
+        <required namespace='java.package' name='org.apache.commons.io' range='0.0.0'/>
+        <required namespace='java.package' name='org.apache.commons.lang' range='0.0.0'/>
+        <required namespace='java.package' name='org.openhab.config.core' range='0.0.0'/>
+        <required namespace='java.package' name='org.openhab.core.binding' range='0.0.0'/>
+        <required namespace='java.package' name='org.openhab.core.events' range='0.0.0'/>
+        <required namespace='java.package' name='org.openhab.core.items' range='0.0.0'/>
+        <required namespace='java.package' name='org.openhab.core.library.items' range='0.0.0'/>
+        <required namespace='java.package' name='org.openhab.core.library.types' range='0.0.0'/>
+        <required namespace='java.package' name='org.openhab.core.scriptengine.action' range='0.0.0'/>
+        <required namespace='java.package' name='org.openhab.core.types' range='0.0.0'/>
+        <required namespace='java.package' name='org.openhab.io.net.exec' range='0.0.0'/>
+        <required namespace='java.package' name='org.openhab.model.item.binding' range='0.0.0'/>
+        <required namespace='java.package' name='org.osgi.framework' range='0.0.0'/>
+        <required namespace='java.package' name='org.osgi.service.cm' range='0.0.0'/>
+        <required namespace='java.package' name='org.osgi.service.component' range='0.0.0'/>
+        <required namespace='java.package' name='org.osgi.service.event' range='0.0.0'/>
+        <required namespace='java.package' name='org.osgi.util.tracker' range='0.0.0'/>
+        <required namespace='java.package' name='org.slf4j' range='0.0.0'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.openhab.core.transform' version='1.5.1'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.openhab.core.transform&#xA;Bundle-Version: 1.5.1
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.openhab.binding.ntp.source' version='1.5.1' singleton='false'>
+      <update id='org.openhab.binding.ntp.source' range='[0.0.0,1.5.1)' severity='0'/>
+      <properties size='3'>
+        <property name='org.eclipse.equinox.p2.name' value='org.openhab.binding.ntp.source'/>
+        <property name='org.eclipse.equinox.p2.provider' value='%bundleVendor'/>
+        <property name='org.eclipse.equinox.p2.bundle.localization' value='plugin'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.openhab.binding.ntp.source' version='1.5.1'/>
+        <provided namespace='osgi.bundle' name='org.openhab.binding.ntp.source' version='1.5.1'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='source' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.openhab.binding.ntp.source' version='1.5.1'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.openhab.binding.ntp.source&#xA;Bundle-Version: 1.5.1
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.openhab.action.twitter' version='1.5.1' singleton='false'>
+      <update id='org.openhab.action.twitter' range='[0.0.0,1.5.1)' severity='0'/>
+      <properties size='4'>
+        <property name='org.eclipse.equinox.p2.name' value='openHAB Twitter Action'/>
+        <property name='org.eclipse.equinox.p2.description' value='This is the Twitter action of the open Home Automation Bus (openHAB)'/>
+        <property name='org.eclipse.equinox.p2.provider' value='openHAB.org'/>
+        <property name='org.eclipse.equinox.p2.doc.url' value='http://www.openhab.org'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.openhab.action.twitter' version='1.5.1'/>
+        <provided namespace='osgi.bundle' name='org.openhab.action.twitter' version='1.5.1'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <requires size='11'>
+        <required namespace='java.package' name='org.apache.commons.io' range='0.0.0'/>
+        <required namespace='java.package' name='org.apache.commons.lang' range='0.0.0'/>
+        <required namespace='java.package' name='org.openhab.core.items' range='0.0.0'/>
+        <required namespace='java.package' name='org.openhab.core.library.items' range='0.0.0'/>
+        <required namespace='java.package' name='org.openhab.core.library.types' range='0.0.0'/>
+        <required namespace='java.package' name='org.openhab.core.scriptengine.action' range='0.0.0'/>
+        <required namespace='java.package' name='org.openhab.core.types' range='0.0.0'/>
+        <required namespace='java.package' name='org.osgi.framework' range='0.0.0'/>
+        <required namespace='java.package' name='org.osgi.service.cm' range='0.0.0'/>
+        <required namespace='java.package' name='org.osgi.service.component' range='0.0.0'/>
+        <required namespace='java.package' name='org.slf4j' range='0.0.0'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.openhab.action.twitter' version='1.5.1'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.openhab.action.twitter&#xA;Bundle-Version: 1.5.1
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.openhab.io.cv' version='1.5.1' singleton='false'>
+      <update id='org.openhab.io.cv' range='[0.0.0,1.5.1)' severity='0'/>
+      <properties size='2'>
+        <property name='org.eclipse.equinox.p2.name' value='openHAB CV Interface Bundle'/>
+        <property name='org.eclipse.equinox.p2.provider' value='openHAB.org'/>
+      </properties>
+      <provides size='4'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.openhab.io.cv' version='1.5.1'/>
+        <provided namespace='osgi.bundle' name='org.openhab.io.cv' version='1.5.1'/>
+        <provided namespace='java.package' name='org.openhab.io.cv' version='0.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <requires size='30'>
+        <required namespace='osgi.bundle' name='org.openhab.io.rest.lib' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='javax.servlet' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.openhab.io.servicediscovery' range='0.0.0'/>
+        <required namespace='java.package' name='com.sun.jersey.api.core.servlet' range='0.0.0'/>
+        <required namespace='java.package' name='com.sun.jersey.api.json' range='0.0.0'/>
+        <required namespace='java.package' name='com.sun.jersey.core.osgi' range='0.0.0'/>
+        <required namespace='java.package' name='com.sun.jersey.core.util' range='0.0.0'/>
+        <required namespace='java.package' name='com.sun.jersey.spi.container' range='0.0.0'/>
+        <required namespace='java.package' name='javax.servlet' range='0.0.0'/>
+        <required namespace='java.package' name='javax.servlet.http' range='0.0.0'/>
+        <required namespace='java.package' name='javax.ws.rs' range='0.0.0'/>
+        <required namespace='java.package' name='javax.ws.rs.core' range='0.0.0'/>
+        <required namespace='java.package' name='javax.ws.rs.ext' range='0.0.0'/>
+        <required namespace='java.package' name='javax.xml.bind.annotation' range='0.0.0'/>
+        <required namespace='java.package' name='org.apache.commons.lang' range='0.0.0'/>
+        <required namespace='java.package' name='org.atmosphere.cpr' range='0.0.0'/>
+        <required namespace='java.package' name='org.codehaus.jackson' range='1.9.2'/>
+        <required namespace='java.package' name='org.codehaus.jackson.annotate' range='1.9.2'/>
+        <required namespace='java.package' name='org.codehaus.jackson.map' range='1.9.2'/>
+        <required namespace='java.package' name='org.codehaus.jackson.type' range='1.9.2'/>
+        <required namespace='java.package' name='org.openhab.core.events' range='0.0.0'/>
+        <required namespace='java.package' name='org.openhab.core.items' range='0.0.0'/>
+        <required namespace='java.package' name='org.openhab.core.types' range='0.0.0'/>
+        <required namespace='java.package' name='org.openhab.io.net.http' range='0.0.0'/>
+        <required namespace='java.package' name='org.openhab.io.servicediscovery' range='0.0.0'/>
+        <required namespace='java.package' name='org.openhab.model.core' range='0.0.0'/>
+        <required namespace='java.package' name='org.openhab.ui.items' range='0.0.0'/>
+        <required namespace='java.package' name='org.osgi.framework' range='0.0.0'/>
+        <required namespace='java.package' name='org.osgi.service.http' range='0.0.0'/>
+        <required namespace='java.package' name='org.slf4j' range='0.0.0'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.openhab.io.cv' version='1.5.1'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.openhab.io.cv&#xA;Bundle-Version: 1.5.1
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.openhab.core.transform.source' version='1.5.1' singleton='false'>
+      <update id='org.openhab.core.transform.source' range='[0.0.0,1.5.1)' severity='0'/>
+      <properties size='3'>
+        <property name='org.eclipse.equinox.p2.name' value='org.openhab.core.transform.source'/>
+        <property name='org.eclipse.equinox.p2.provider' value='%bundleVendor'/>
+        <property name='org.eclipse.equinox.p2.bundle.localization' value='plugin'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.openhab.core.transform.source' version='1.5.1'/>
+        <provided namespace='osgi.bundle' name='org.openhab.core.transform.source' version='1.5.1'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='source' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.openhab.core.transform.source' version='1.5.1'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.openhab.core.transform.source&#xA;Bundle-Version: 1.5.1
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.openhab.ui.webapp.source' version='1.5.1' singleton='false'>
+      <update id='org.openhab.ui.webapp.source' range='[0.0.0,1.5.1)' severity='0'/>
+      <properties size='3'>
+        <property name='org.eclipse.equinox.p2.name' value='org.openhab.ui.webapp.source'/>
+        <property name='org.eclipse.equinox.p2.provider' value='%bundleVendor'/>
+        <property name='org.eclipse.equinox.p2.bundle.localization' value='plugin'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.openhab.ui.webapp.source' version='1.5.1'/>
+        <provided namespace='osgi.bundle' name='org.openhab.ui.webapp.source' version='1.5.1'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='source' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.openhab.ui.webapp.source' version='1.5.1'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.openhab.ui.webapp.source&#xA;Bundle-Version: 1.5.1
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.openhab.core' version='1.5.1' singleton='false'>
+      <update id='org.openhab.core' range='[0.0.0,1.5.1)' severity='0'/>
+      <properties size='4'>
+        <property name='org.eclipse.equinox.p2.name' value='openHAB Core'/>
+        <property name='org.eclipse.equinox.p2.description' value='This is the runtime component of the open Home Automation Bus (openHAB)'/>
+        <property name='org.eclipse.equinox.p2.provider' value='openHAB.org'/>
+        <property name='org.eclipse.equinox.p2.doc.url' value='http://www.openhab.org'/>
+      </properties>
+      <provides size='8'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.openhab.core' version='1.5.1'/>
+        <provided namespace='osgi.bundle' name='org.openhab.core' version='1.5.1'/>
+        <provided namespace='java.package' name='org.openhab.core.binding' version='0.0.0'/>
+        <provided namespace='java.package' name='org.openhab.core.events' version='0.0.0'/>
+        <provided namespace='java.package' name='org.openhab.core.items' version='0.0.0'/>
+        <provided namespace='java.package' name='org.openhab.core.service' version='0.0.0'/>
+        <provided namespace='java.package' name='org.openhab.core.types' version='0.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <requires size='13'>
+        <required namespace='java.package' name='com.google.common.cache' range='10.0.1'/>
+        <required namespace='java.package' name='org.apache.commons.collections' range='0.0.0'/>
+        <required namespace='java.package' name='org.apache.commons.httpclient' range='0.0.0'/>
+        <required namespace='java.package' name='org.apache.commons.httpclient.methods' range='0.0.0'/>
+        <required namespace='java.package' name='org.apache.commons.httpclient.params' range='0.0.0'/>
+        <required namespace='java.package' name='org.apache.commons.io' range='0.0.0'/>
+        <required namespace='java.package' name='org.apache.commons.lang' range='0.0.0'/>
+        <required namespace='java.package' name='org.osgi.framework' range='0.0.0'/>
+        <required namespace='java.package' name='org.osgi.service.component' range='0.0.0'/>
+        <required namespace='java.package' name='org.osgi.service.event' range='0.0.0'/>
+        <required namespace='java.package' name='org.osgi.service.log' range='0.0.0'/>
+        <required namespace='java.package' name='org.slf4j' range='0.0.0'/>
+        <required namespace='java.package' name='org.slf4j.bridge' range='0.0.0'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.openhab.core' version='1.5.1'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.openhab.core&#xA;Bundle-Version: 1.5.1
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.openhab.binding.http' version='1.5.1' singleton='false'>
+      <update id='org.openhab.binding.http' range='[0.0.0,1.5.1)' severity='0'/>
+      <properties size='4'>
+        <property name='org.eclipse.equinox.p2.name' value='openHAB HTTP Binding'/>
+        <property name='org.eclipse.equinox.p2.description' value='This is the HTTP binding of the open Home Automation Bus (openHAB)'/>
+        <property name='org.eclipse.equinox.p2.provider' value='openHAB.org'/>
+        <property name='org.eclipse.equinox.p2.doc.url' value='http://www.openhab.org'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.openhab.binding.http' version='1.5.1'/>
+        <provided namespace='osgi.bundle' name='org.openhab.binding.http' version='1.5.1'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <requires size='20'>
+        <required namespace='java.package' name='com.google.common.base' range='0.0.0'/>
+        <required namespace='java.package' name='com.google.common.collect' range='0.0.0'/>
+        <required namespace='java.package' name='org.apache.commons.collections' range='0.0.0'/>
+        <required namespace='java.package' name='org.apache.commons.collections.list' range='0.0.0'/>
+        <required namespace='java.package' name='org.apache.commons.io' range='0.0.0'/>
+        <required namespace='java.package' name='org.apache.commons.lang' range='0.0.0'/>
+        <required namespace='java.package' name='org.openhab.core.binding' range='0.0.0'/>
+        <required namespace='java.package' name='org.openhab.core.events' range='0.0.0'/>
+        <required namespace='java.package' name='org.openhab.core.items' range='0.0.0'/>
+        <required namespace='java.package' name='org.openhab.core.library.items' range='0.0.0'/>
+        <required namespace='java.package' name='org.openhab.core.library.types' range='0.0.0'/>
+        <required namespace='java.package' name='org.openhab.core.transform' range='0.0.0'/>
+        <required namespace='java.package' name='org.openhab.core.types' range='0.0.0'/>
+        <required namespace='java.package' name='org.openhab.io.net.http' range='0.0.0'/>
+        <required namespace='java.package' name='org.openhab.model.item.binding' range='0.0.0'/>
+        <required namespace='java.package' name='org.osgi.framework' range='0.0.0'/>
+        <required namespace='java.package' name='org.osgi.service.cm' range='0.0.0'/>
+        <required namespace='java.package' name='org.osgi.service.component' range='0.0.0'/>
+        <required namespace='java.package' name='org.osgi.service.event' range='0.0.0'/>
+        <required namespace='java.package' name='org.slf4j' range='0.0.0'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.openhab.binding.http' version='1.5.1'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.openhab.binding.http&#xA;Bundle-Version: 1.5.1
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.openhab.io.rest.source' version='1.5.1' singleton='false'>
+      <update id='org.openhab.io.rest.source' range='[0.0.0,1.5.1)' severity='0'/>
+      <properties size='3'>
+        <property name='org.eclipse.equinox.p2.name' value='org.openhab.io.rest.source'/>
+        <property name='org.eclipse.equinox.p2.provider' value='%bundleVendor'/>
+        <property name='org.eclipse.equinox.p2.bundle.localization' value='plugin'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.openhab.io.rest.source' version='1.5.1'/>
+        <provided namespace='osgi.bundle' name='org.openhab.io.rest.source' version='1.5.1'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='source' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.openhab.io.rest.source' version='1.5.1'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.openhab.io.rest.source&#xA;Bundle-Version: 1.5.1
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.openhab.config.core' version='1.5.1' singleton='false'>
+      <update id='org.openhab.config.core' range='[0.0.0,1.5.1)' severity='0'/>
+      <properties size='2'>
+        <property name='org.eclipse.equinox.p2.name' value='openHAB Config Core'/>
+        <property name='org.eclipse.equinox.p2.provider' value='openHAB.org'/>
+      </properties>
+      <provides size='4'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.openhab.config.core' version='1.5.1'/>
+        <provided namespace='osgi.bundle' name='org.openhab.config.core' version='1.5.1'/>
+        <provided namespace='java.package' name='org.openhab.config.core' version='0.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <requires size='10'>
+        <required namespace='java.package' name='org.apache.commons.io' range='0.0.0'/>
+        <required namespace='java.package' name='org.apache.commons.lang' range='0.0.0'/>
+        <required namespace='java.package' name='org.osgi.framework' range='0.0.0'/>
+        <required namespace='java.package' name='org.osgi.service.cm' range='0.0.0'/>
+        <required namespace='java.package' name='org.osgi.util.tracker' range='0.0.0'/>
+        <required namespace='java.package' name='org.quartz' range='0.0.0'/>
+        <required namespace='java.package' name='org.quartz.impl' range='0.0.0'/>
+        <required namespace='java.package' name='org.quartz.impl.matchers' range='0.0.0'/>
+        <required namespace='java.package' name='org.quartz.utils' range='0.0.0'/>
+        <required namespace='java.package' name='org.slf4j' range='0.0.0'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.openhab.config.core' version='1.5.1'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.openhab.config.core&#xA;Bundle-Version: 1.5.1
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.openhab.core.autoupdate' version='1.5.1' singleton='false'>
+      <update id='org.openhab.core.autoupdate' range='[0.0.0,1.5.1)' severity='0'/>
+      <properties size='4'>
+        <property name='org.eclipse.equinox.p2.name' value='openHAB AutoUpdate Binding'/>
+        <property name='org.eclipse.equinox.p2.description' value='This is the AutoUpdate binding of the open Home Automation Bus (openHAB)'/>
+        <property name='org.eclipse.equinox.p2.provider' value='openHAB.org'/>
+        <property name='org.eclipse.equinox.p2.doc.url' value='http://www.openhab.org'/>
+      </properties>
+      <provides size='4'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.openhab.core.autoupdate' version='1.5.1'/>
+        <provided namespace='osgi.bundle' name='org.openhab.core.autoupdate' version='1.5.1'/>
+        <provided namespace='java.package' name='org.openhab.core.autoupdate' version='0.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <requires size='11'>
+        <required namespace='java.package' name='org.apache.commons.lang' range='0.0.0'/>
+        <required namespace='java.package' name='org.openhab.core.binding' range='0.0.0'/>
+        <required namespace='java.package' name='org.openhab.core.events' range='0.0.0'/>
+        <required namespace='java.package' name='org.openhab.core.items' range='0.0.0'/>
+        <required namespace='java.package' name='org.openhab.core.types' range='0.0.0'/>
+        <required namespace='java.package' name='org.openhab.model.item.binding' range='0.0.0'/>
+        <required namespace='java.package' name='org.osgi.framework' range='0.0.0'/>
+        <required namespace='java.package' name='org.osgi.service.cm' range='0.0.0'/>
+        <required namespace='java.package' name='org.osgi.service.component' range='0.0.0'/>
+        <required namespace='java.package' name='org.osgi.service.event' range='0.0.0'/>
+        <required namespace='java.package' name='org.slf4j' range='0.0.0'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.openhab.core.autoupdate' version='1.5.1'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.openhab.core.autoupdate&#xA;Bundle-Version: 1.5.1
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.openhab.binding.mpd.source' version='1.5.1' singleton='false'>
+      <update id='org.openhab.binding.mpd.source' range='[0.0.0,1.5.1)' severity='0'/>
+      <properties size='3'>
+        <property name='org.eclipse.equinox.p2.name' value='org.openhab.binding.mpd.source'/>
+        <property name='org.eclipse.equinox.p2.provider' value='%bundleVendor'/>
+        <property name='org.eclipse.equinox.p2.bundle.localization' value='plugin'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.openhab.binding.mpd.source' version='1.5.1'/>
+        <provided namespace='osgi.bundle' name='org.openhab.binding.mpd.source' version='1.5.1'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='source' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.openhab.binding.mpd.source' version='1.5.1'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.openhab.binding.mpd.source&#xA;Bundle-Version: 1.5.1
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.openhab.action.prowl.source' version='1.5.1' singleton='false'>
+      <update id='org.openhab.action.prowl.source' range='[0.0.0,1.5.1)' severity='0'/>
+      <properties size='3'>
+        <property name='org.eclipse.equinox.p2.name' value='org.openhab.action.prowl.source'/>
+        <property name='org.eclipse.equinox.p2.provider' value='%bundleVendor'/>
+        <property name='org.eclipse.equinox.p2.bundle.localization' value='plugin'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.openhab.action.prowl.source' version='1.5.1'/>
+        <provided namespace='osgi.bundle' name='org.openhab.action.prowl.source' version='1.5.1'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='source' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.openhab.action.prowl.source' version='1.5.1'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.openhab.action.prowl.source&#xA;Bundle-Version: 1.5.1
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.openhab.io.rest' version='1.5.1' singleton='false'>
+      <update id='org.openhab.io.rest' range='[0.0.0,1.5.1)' severity='0'/>
+      <properties size='2'>
+        <property name='org.eclipse.equinox.p2.name' value='openHAB REST Interface Bundle'/>
+        <property name='org.eclipse.equinox.p2.provider' value='openHAB.org'/>
+      </properties>
+      <provides size='4'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.openhab.io.rest' version='1.5.1'/>
+        <provided namespace='osgi.bundle' name='org.openhab.io.rest' version='1.5.1'/>
+        <provided namespace='java.package' name='org.openhab.io.rest' version='0.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <requires size='33'>
+        <required namespace='osgi.bundle' name='org.openhab.io.rest.lib' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='javax.servlet' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.openhab.io.servicediscovery' range='0.0.0'/>
+        <required namespace='java.package' name='com.google.common.collect' range='10.0.1'/>
+        <required namespace='java.package' name='com.sun.jersey.core.util' range='0.0.0'/>
+        <required namespace='java.package' name='javax.ws.rs' range='0.0.0'/>
+        <required namespace='java.package' name='javax.ws.rs.core' range='0.0.0'/>
+        <required namespace='java.package' name='javax.xml.bind.annotation' range='0.0.0'/>
+        <required namespace='java.package' name='org.apache.commons.lang' range='0.0.0'/>
+        <required namespace='java.package' name='org.atmosphere.cpr' range='0.0.0'/>
+        <required namespace='java.package' name='org.codehaus.jackson.map' range='0.0.0'/>
+        <required namespace='java.package' name='org.eclipse.emf.common' range='0.0.0'/>
+        <required namespace='java.package' name='org.eclipse.emf.common.util' range='0.0.0'/>
+        <required namespace='java.package' name='org.eclipse.emf.ecore' range='0.0.0'/>
+        <required namespace='java.package' name='org.eclipse.jetty.continuation' range='7.5.1'/>
+        <required namespace='java.package' name='org.eclipse.jetty.util' range='7.5.1'/>
+        <required namespace='java.package' name='org.eclipse.jetty.websocket' range='7.5.1'/>
+        <required namespace='java.package' name='org.openhab.core.events' range='0.0.0'/>
+        <required namespace='java.package' name='org.openhab.core.items' range='0.0.0'/>
+        <required namespace='java.package' name='org.openhab.core.library.items' range='0.0.0'/>
+        <required namespace='java.package' name='org.openhab.core.library.types' range='0.0.0'/>
+        <required namespace='java.package' name='org.openhab.core.types' range='0.0.0'/>
+        <required namespace='java.package' name='org.openhab.io.net.http' range='0.0.0'/>
+        <required namespace='java.package' name='org.openhab.io.servicediscovery' range='0.0.0'/>
+        <required namespace='java.package' name='org.openhab.model.core' range='0.0.0'/>
+        <required namespace='java.package' name='org.openhab.model.sitemap' range='0.0.0'/>
+        <required namespace='java.package' name='org.openhab.ui.items' range='0.0.0'/>
+        <required namespace='java.package' name='org.osgi.framework' range='0.0.0'/>
+        <required namespace='java.package' name='org.osgi.service.cm' range='0.0.0'/>
+        <required namespace='java.package' name='org.osgi.service.event' range='0.0.0'/>
+        <required namespace='java.package' name='org.osgi.service.http' range='0.0.0'/>
+        <required namespace='java.package' name='org.osgi.util.tracker' range='0.0.0'/>
+        <required namespace='java.package' name='org.slf4j' range='0.0.0'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.openhab.io.rest' version='1.5.1'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.openhab.io.rest&#xA;Bundle-Version: 1.5.1
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.openhab.io.multimedia.tts.freetts' version='1.5.1' singleton='false'>
+      <update id='org.openhab.io.multimedia.tts.freetts' range='[0.0.0,1.5.1)' severity='0'/>
+      <properties size='2'>
+        <property name='org.eclipse.equinox.p2.name' value='openHAB Multimedia FreeTTS'/>
+        <property name='org.eclipse.equinox.p2.provider' value='openHAB.org'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.openhab.io.multimedia.tts.freetts' version='1.5.1'/>
+        <provided namespace='osgi.bundle' name='org.openhab.io.multimedia.tts.freetts' version='1.5.1'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <requires size='3'>
+        <required namespace='java.package' name='org.openhab.io.multimedia.tts' range='0.0.0'/>
+        <required namespace='java.package' name='org.osgi.framework' range='0.0.0'/>
+        <required namespace='java.package' name='org.slf4j' range='0.0.0'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.openhab.io.multimedia.tts.freetts' version='1.5.1'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.openhab.io.multimedia.tts.freetts&#xA;Bundle-Version: 1.5.1
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.openhab.ui.source' version='1.5.1' singleton='false'>
+      <update id='org.openhab.ui.source' range='[0.0.0,1.5.1)' severity='0'/>
+      <properties size='3'>
+        <property name='org.eclipse.equinox.p2.name' value='org.openhab.ui.source'/>
+        <property name='org.eclipse.equinox.p2.provider' value='%bundleVendor'/>
+        <property name='org.eclipse.equinox.p2.bundle.localization' value='plugin'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.openhab.ui.source' version='1.5.1'/>
+        <provided namespace='osgi.bundle' name='org.openhab.ui.source' version='1.5.1'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='source' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.openhab.ui.source' version='1.5.1'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.openhab.ui.source&#xA;Bundle-Version: 1.5.1
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='file:/Users/tuck/Dev/workspace-kepler/p2/openhab-p2-site/target/repository/category.xml.all' version='1.0.0.9JE9k9UcLSesE'>
+      <properties size='2'>
+        <property name='org.eclipse.equinox.p2.name' value='Maven osgi-bundles'/>
+        <property name='org.eclipse.equinox.p2.type.category' value='true'/>
+      </properties>
+      <provides size='1'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='file:/Users/tuck/Dev/workspace-kepler/p2/openhab-p2-site/target/repository/category.xml.all' version='1.0.0.9JE9k9UcLSesE'/>
+      </provides>
+      <requires size='70'>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.openhab.io.multimedia.tts.freetts.source' range='[1.5.1,1.5.1]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.openhab.core.scheduler.source' range='[1.5.1,1.5.1]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.openhab.action.mail.source' range='[1.5.1,1.5.1]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.openhab.io.multimedia' range='[1.5.1,1.5.1]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.openhab.binding.http.source' range='[1.5.1,1.5.1]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.openhab.core.scriptengine' range='[1.5.1,1.5.1]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.openhab.action.twitter.source' range='[1.5.1,1.5.1]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.openhab.binding.exec.source' range='[1.5.1,1.5.1]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.openhab.model.persistence' range='[1.5.1,1.5.1]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.openhab.config.core.source' range='[1.5.1,1.5.1]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.openhab.action.mail' range='[1.5.1,1.5.1]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.openhab.core.persistence.source' range='[1.5.1,1.5.1]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.openhab.core.persistence' range='[1.5.1,1.5.1]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.openhab.model.script' range='[1.5.1,1.5.1]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.openhab.binding.exec' range='[1.5.1,1.5.1]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.openhab.ui.webapp' range='[1.5.1,1.5.1]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.openhab.core.transform' range='[1.5.1,1.5.1]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.openhab.binding.ntp.source' range='[1.5.1,1.5.1]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.openhab.action.twitter' range='[1.5.1,1.5.1]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.openhab.core.transform.source' range='[1.5.1,1.5.1]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.openhab.io.cv' range='[1.5.1,1.5.1]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.openhab.core' range='[1.5.1,1.5.1]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.openhab.ui.webapp.source' range='[1.5.1,1.5.1]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.openhab.binding.http' range='[1.5.1,1.5.1]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.openhab.io.rest.source' range='[1.5.1,1.5.1]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.openhab.config.core' range='[1.5.1,1.5.1]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.openhab.core.autoupdate' range='[1.5.1,1.5.1]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.openhab.binding.mpd.source' range='[1.5.1,1.5.1]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.openhab.action.prowl.source' range='[1.5.1,1.5.1]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.openhab.io.rest' range='[1.5.1,1.5.1]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.openhab.io.multimedia.tts.freetts' range='[1.5.1,1.5.1]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.openhab.ui.source' range='[1.5.1,1.5.1]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.openhab.action.prowl' range='[1.5.1,1.5.1]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.openhab.model.item' range='[1.5.1,1.5.1]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.openhab.io.rest.lib' range='[1.5.1,1.5.1]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.openhab.action.xbmc.source' range='[1.5.1,1.5.1]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.openhab.core.scriptengine.source' range='[1.5.1,1.5.1]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.openhab.io.net' range='[1.5.1,1.5.1]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.openhab.io.transport.serial' range='[1.5.1,1.5.1]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.apache.felix.fileinstall.source' range='[3.2.6,3.2.6]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.openhab.model.core' range='[1.5.1,1.5.1]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.openhab.io.monitor' range='[1.5.1,1.5.1]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.openhab.io.multimedia.source' range='[1.5.1,1.5.1]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.openhab.io.net.source' range='[1.5.1,1.5.1]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.openhab.persistence.rrd4j.source' range='[1.5.1,1.5.1]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.openhab.io.console.source' range='[1.5.1,1.5.1]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.openhab.model.sitemap' range='[1.5.1,1.5.1]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.openhab.io.monitor.source' range='[1.5.1,1.5.1]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.openhab.library.tel' range='[1.5.1,1.5.1]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.openhab.core.autoupdate.source' range='[1.5.1,1.5.1]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.openhab.io.servicediscovery.source' range='[1.5.1,1.5.1]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.openhab.io.console' range='[1.5.1,1.5.1]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.openhab.action.xbmc' range='[1.5.1,1.5.1]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.openhab.core.library' range='[1.5.1,1.5.1]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.openhab.model.core.source' range='[1.5.1,1.5.1]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.openhab.binding.ntp' range='[1.5.1,1.5.1]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.apache.felix.fileinstall' range='[3.2.6,3.2.6]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.openhab.core.scheduler' range='[1.5.1,1.5.1]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.openhab.core.source' range='[1.5.1,1.5.1]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.openhab.binding.mpd' range='[1.5.1,1.5.1]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.openhab.io.servicediscovery' range='[1.5.1,1.5.1]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.openhab.action.xmpp' range='[1.5.1,1.5.1]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.openhab.persistence.rrd4j' range='[1.5.1,1.5.1]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.openhab.model.rule' range='[1.5.1,1.5.1]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.openhab.persistence.db4o' range='[1.5.1,1.5.1]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.openhab.library.tel.source' range='[1.5.1,1.5.1]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.openhab.action.xmpp.source' range='[1.5.1,1.5.1]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.openhab.io.cv.source' range='[1.5.1,1.5.1]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.openhab.ui' range='[1.5.1,1.5.1]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.openhab.core.library.source' range='[1.5.1,1.5.1]'/>
+      </requires>
+      <touchpoint id='null' version='0.0.0'/>
+    </unit>
+    <unit id='org.openhab.action.prowl' version='1.5.1' singleton='false'>
+      <update id='org.openhab.action.prowl' range='[0.0.0,1.5.1)' severity='0'/>
+      <properties size='4'>
+        <property name='org.eclipse.equinox.p2.name' value='openHAB Prowl Action'/>
+        <property name='org.eclipse.equinox.p2.description' value='This is the Prowl action of the open Home Automation Bus (openHAB)'/>
+        <property name='org.eclipse.equinox.p2.provider' value='openHAB.org'/>
+        <property name='org.eclipse.equinox.p2.doc.url' value='http://www.openhab.org'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.openhab.action.prowl' version='1.5.1'/>
+        <provided namespace='osgi.bundle' name='org.openhab.action.prowl' version='1.5.1'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <requires size='10'>
+        <required namespace='java.package' name='org.apache.commons.lang' range='0.0.0'/>
+        <required namespace='java.package' name='org.openhab.core.scriptengine.action' range='0.0.0'/>
+        <required namespace='java.package' name='org.openhab.core.items' range='0.0.0'/>
+        <required namespace='java.package' name='org.openhab.core.library.items' range='0.0.0'/>
+        <required namespace='java.package' name='org.openhab.core.library.types' range='0.0.0'/>
+        <required namespace='java.package' name='org.openhab.core.types' range='0.0.0'/>
+        <required namespace='java.package' name='org.osgi.framework' range='0.0.0'/>
+        <required namespace='java.package' name='org.osgi.service.cm' range='0.0.0'/>
+        <required namespace='java.package' name='org.osgi.service.component' range='0.0.0'/>
+        <required namespace='java.package' name='org.slf4j' range='0.0.0'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.openhab.action.prowl' version='1.5.1'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.openhab.action.prowl&#xA;Bundle-Version: 1.5.1
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.openhab.model.item' version='1.5.1' singleton='false'>
+      <update id='org.openhab.model.item' range='[0.0.0,1.5.1)' severity='0'/>
+      <properties size='3'>
+        <property name='org.eclipse.equinox.p2.name' value='org.openhab.model.item; singleton:=true source'/>
+        <property name='org.eclipse.equinox.p2.provider' value='%bundleVendor'/>
+        <property name='org.eclipse.equinox.p2.bundle.localization' value='plugin'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.openhab.model.item' version='1.5.1'/>
+        <provided namespace='osgi.bundle' name='org.openhab.model.item' version='1.5.1'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='source' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.openhab.model.item' version='1.5.1'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.openhab.model.item; singleton:=true.source&#xA;Bundle-Version: 1.5.1
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.openhab.io.rest.lib' version='1.5.1' singleton='false'>
+      <update id='org.openhab.io.rest.lib' range='[0.0.0,1.5.1)' severity='0'/>
+      <properties size='2'>
+        <property name='org.eclipse.equinox.p2.name' value='openHAB REST libraries Bundle'/>
+        <property name='org.eclipse.equinox.p2.provider' value='openHAB.org'/>
+      </properties>
+      <provides size='23'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.openhab.io.rest.lib' version='1.5.1'/>
+        <provided namespace='osgi.bundle' name='org.openhab.io.rest.lib' version='1.5.1'/>
+        <provided namespace='java.package' name='com.sun.jersey.api.client' version='0.0.0'/>
+        <provided namespace='java.package' name='com.sun.jersey.api.core' version='0.0.0'/>
+        <provided namespace='java.package' name='com.sun.jersey.api.core.servlet' version='0.0.0'/>
+        <provided namespace='java.package' name='com.sun.jersey.api.json' version='0.0.0'/>
+        <provided namespace='java.package' name='com.sun.jersey.core.osgi' version='0.0.0'/>
+        <provided namespace='java.package' name='com.sun.jersey.core.util' version='0.0.0'/>
+        <provided namespace='java.package' name='com.sun.jersey.spi.container' version='0.0.0'/>
+        <provided namespace='java.package' name='javax.ws.rs' version='0.0.0'/>
+        <provided namespace='java.package' name='javax.ws.rs.core' version='0.0.0'/>
+        <provided namespace='java.package' name='javax.ws.rs.ext' version='0.0.0'/>
+        <provided namespace='java.package' name='org.atmosphere' version='0.0.0'/>
+        <provided namespace='java.package' name='org.atmosphere.annotation' version='0.0.0'/>
+        <provided namespace='java.package' name='org.atmosphere.cache' version='0.0.0'/>
+        <provided namespace='java.package' name='org.atmosphere.cpr' version='0.0.0'/>
+        <provided namespace='java.package' name='org.atmosphere.jersey' version='0.0.0'/>
+        <provided namespace='java.package' name='org.atmosphere.util' version='0.0.0'/>
+        <provided namespace='java.package' name='org.codehaus.jackson' version='1.9.2'/>
+        <provided namespace='java.package' name='org.codehaus.jackson.annotate' version='1.9.2'/>
+        <provided namespace='java.package' name='org.codehaus.jackson.map' version='1.9.2'/>
+        <provided namespace='java.package' name='org.codehaus.jackson.type' version='1.9.2'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <requires size='15'>
+        <required namespace='osgi.bundle' name='javax.servlet' range='0.0.0'/>
+        <required namespace='java.package' name='com.sun.jersey.api.core' range='0.0.0'/>
+        <required namespace='java.package' name='com.sun.jersey.api.json' range='0.0.0'/>
+        <required namespace='java.package' name='com.sun.jersey.core.osgi' range='0.0.0'/>
+        <required namespace='java.package' name='com.sun.jersey.core.util' range='0.0.0'/>
+        <required namespace='java.package' name='javax.servlet' range='0.0.0'/>
+        <required namespace='java.package' name='javax.servlet.http' range='0.0.0'/>
+        <required namespace='java.package' name='org.atmosphere' range='0.0.0'/>
+        <required namespace='java.package' name='org.atmosphere.annotation' range='0.0.0'/>
+        <required namespace='java.package' name='org.atmosphere.cache' range='0.0.0'/>
+        <required namespace='java.package' name='org.atmosphere.cpr' range='0.0.0'/>
+        <required namespace='java.package' name='org.atmosphere.jersey' range='0.0.0'/>
+        <required namespace='java.package' name='org.atmosphere.util' range='0.0.0'/>
+        <required namespace='java.package' name='org.osgi.framework' range='0.0.0'/>
+        <required namespace='java.package' name='org.slf4j' range='0.0.0'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.openhab.io.rest.lib' version='1.5.1'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.openhab.io.rest.lib&#xA;Bundle-Version: 1.5.1
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.openhab.action.xbmc.source' version='1.5.1' singleton='false'>
+      <update id='org.openhab.action.xbmc.source' range='[0.0.0,1.5.1)' severity='0'/>
+      <properties size='3'>
+        <property name='org.eclipse.equinox.p2.name' value='org.openhab.action.xbmc.source'/>
+        <property name='org.eclipse.equinox.p2.provider' value='%bundleVendor'/>
+        <property name='org.eclipse.equinox.p2.bundle.localization' value='plugin'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.openhab.action.xbmc.source' version='1.5.1'/>
+        <provided namespace='osgi.bundle' name='org.openhab.action.xbmc.source' version='1.5.1'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='source' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.openhab.action.xbmc.source' version='1.5.1'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.openhab.action.xbmc.source&#xA;Bundle-Version: 1.5.1
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.openhab.core.scriptengine.source' version='1.5.1' singleton='false'>
+      <update id='org.openhab.core.scriptengine.source' range='[0.0.0,1.5.1)' severity='0'/>
+      <properties size='3'>
+        <property name='org.eclipse.equinox.p2.name' value='org.openhab.core.scriptengine.source'/>
+        <property name='org.eclipse.equinox.p2.provider' value='%bundleVendor'/>
+        <property name='org.eclipse.equinox.p2.bundle.localization' value='plugin'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.openhab.core.scriptengine.source' version='1.5.1'/>
+        <provided namespace='osgi.bundle' name='org.openhab.core.scriptengine.source' version='1.5.1'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='source' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.openhab.core.scriptengine.source' version='1.5.1'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.openhab.core.scriptengine.source&#xA;Bundle-Version: 1.5.1
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.openhab.io.net' version='1.5.1' singleton='false'>
+      <update id='org.openhab.io.net' range='[0.0.0,1.5.1)' severity='0'/>
+      <properties size='2'>
+        <property name='org.eclipse.equinox.p2.name' value='openHAB Net I/O Bundle'/>
+        <property name='org.eclipse.equinox.p2.provider' value='openHAB.org'/>
+      </properties>
+      <provides size='6'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.openhab.io.net' version='1.5.1'/>
+        <provided namespace='osgi.bundle' name='org.openhab.io.net' version='1.5.1'/>
+        <provided namespace='java.package' name='org.openhab.io.net.actions' version='0.0.0'/>
+        <provided namespace='java.package' name='org.openhab.io.net.exec' version='0.0.0'/>
+        <provided namespace='java.package' name='org.openhab.io.net.http' version='0.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <requires size='18'>
+        <required namespace='java.package' name='javax.servlet' range='2.6.0'/>
+        <required namespace='java.package' name='javax.servlet.http' range='2.6.0'/>
+        <required namespace='java.package' name='org.apache.commons.codec.net' range='1.3.0'/>
+        <required namespace='java.package' name='org.apache.commons.exec' range='0.0.0'/>
+        <required namespace='java.package' name='org.apache.commons.httpclient' range='0.0.0'/>
+        <required namespace='java.package' name='org.apache.commons.httpclient.auth' range='0.0.0'/>
+        <required namespace='java.package' name='org.apache.commons.httpclient.methods' range='0.0.0'/>
+        <required namespace='java.package' name='org.apache.commons.httpclient.params' range='0.0.0'/>
+        <required namespace='java.package' name='org.apache.commons.io' range='0.0.0'/>
+        <required namespace='java.package' name='org.apache.commons.lang' range='0.0.0'/>
+        <required namespace='java.package' name='org.apache.commons.net.util' range='0.0.0'/>
+        <required namespace='java.package' name='org.eclipse.jetty.plus.jaas.callback' range='0.0.0' optional='true' greedy='false'/>
+        <required namespace='java.package' name='org.eclipse.jetty.plus.jaas.spi' range='0.0.0' optional='true' greedy='false'/>
+        <required namespace='java.package' name='org.openhab.core.scriptengine.action' range='0.0.0'/>
+        <required namespace='java.package' name='org.openhab.io.console' range='0.0.0'/>
+        <required namespace='java.package' name='org.osgi.service.cm' range='0.0.0'/>
+        <required namespace='java.package' name='org.osgi.service.http' range='0.0.0'/>
+        <required namespace='java.package' name='org.slf4j' range='0.0.0'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.openhab.io.net' version='1.5.1'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.openhab.io.net&#xA;Bundle-Version: 1.5.1
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.openhab.io.transport.serial' version='1.5.1' singleton='false'>
+      <update id='org.openhab.io.transport.serial' range='[0.0.0,1.5.1)' severity='0'/>
+      <properties size='2'>
+        <property name='org.eclipse.equinox.p2.name' value='openHAB Serial Transport Bundle'/>
+        <property name='org.eclipse.equinox.p2.provider' value='openHAB.org'/>
+      </properties>
+      <provides size='4'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.openhab.io.transport.serial' version='1.5.1'/>
+        <provided namespace='osgi.bundle' name='org.openhab.io.transport.serial' version='1.5.1'/>
+        <provided namespace='java.package' name='gnu.io' version='0.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <requires size='1'>
+        <required namespace='java.package' name='gnu.io' range='0.0.0'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.openhab.io.transport.serial' version='1.5.1'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.openhab.io.transport.serial&#xA;Bundle-Version: 1.5.1
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.apache.felix.fileinstall.source' version='3.2.6' singleton='false'>
+      <update id='org.apache.felix.fileinstall.source' range='[0.0.0,3.2.6)' severity='0'/>
+      <properties size='2'>
+        <property name='org.eclipse.equinox.p2.name' value='org.apache.felix.fileinstall.source'/>
+        <property name='org.eclipse.equinox.p2.bundle.localization' value='plugin'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.apache.felix.fileinstall.source' version='3.2.6'/>
+        <provided namespace='osgi.bundle' name='org.apache.felix.fileinstall.source' version='3.2.6'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='source' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.apache.felix.fileinstall.source' version='3.2.6'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.apache.felix.fileinstall.source&#xA;Bundle-Version: 3.2.6
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.openhab.model.core' version='1.5.1' singleton='false'>
+      <update id='org.openhab.model.core' range='[0.0.0,1.5.1)' severity='0'/>
+      <properties size='2'>
+        <property name='org.eclipse.equinox.p2.name' value='openHAB Model Core'/>
+        <property name='org.eclipse.equinox.p2.provider' value='openHAB.org'/>
+      </properties>
+      <provides size='4'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.openhab.model.core' version='1.5.1'/>
+        <provided namespace='osgi.bundle' name='org.openhab.model.core' version='1.5.1'/>
+        <provided namespace='java.package' name='org.openhab.model.core' version='0.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <requires size='16'>
+        <required namespace='java.package' name='com.google.common.base' range='0.0.0'/>
+        <required namespace='java.package' name='com.google.common.collect' range='0.0.0'/>
+        <required namespace='java.package' name='org.apache.commons.collections' range='3.2.0'/>
+        <required namespace='java.package' name='org.apache.commons.io' range='0.0.0'/>
+        <required namespace='java.package' name='org.apache.commons.lang' range='2.3.0'/>
+        <required namespace='java.package' name='org.eclipse.core.runtime' range='0.0.0'/>
+        <required namespace='java.package' name='org.eclipse.emf.common.notify' range='0.0.0'/>
+        <required namespace='java.package' name='org.eclipse.emf.common.util' range='0.0.0'/>
+        <required namespace='java.package' name='org.eclipse.emf.ecore' range='0.0.0'/>
+        <required namespace='java.package' name='org.eclipse.emf.ecore.resource' range='0.0.0'/>
+        <required namespace='java.package' name='org.eclipse.xtext.common.types.impl' range='0.0.0'/>
+        <required namespace='java.package' name='org.eclipse.xtext.resource' range='0.0.0'/>
+        <required namespace='java.package' name='org.openhab.config.core' range='0.0.0'/>
+        <required namespace='java.package' name='org.osgi.framework' range='0.0.0'/>
+        <required namespace='java.package' name='org.osgi.service.cm' range='0.0.0'/>
+        <required namespace='java.package' name='org.slf4j' range='1.5.11'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.openhab.model.core' version='1.5.1'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.openhab.model.core&#xA;Bundle-Version: 1.5.1
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.openhab.io.monitor' version='1.5.1' singleton='false'>
+      <update id='org.openhab.io.monitor' range='[0.0.0,1.5.1)' severity='0'/>
+      <properties size='4'>
+        <property name='org.eclipse.equinox.p2.name' value='openHAB Monitor'/>
+        <property name='org.eclipse.equinox.p2.description' value='This is the runtime component of the open Home Automation Bus (openHAB)'/>
+        <property name='org.eclipse.equinox.p2.provider' value='openHAB.org'/>
+        <property name='org.eclipse.equinox.p2.doc.url' value='http://www.openhab.org'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.openhab.io.monitor' version='1.5.1'/>
+        <provided namespace='osgi.bundle' name='org.openhab.io.monitor' version='1.5.1'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <requires size='8'>
+        <required namespace='java.package' name='org.openhab.core.events' range='0.0.0'/>
+        <required namespace='java.package' name='org.openhab.core.items' range='0.0.0'/>
+        <required namespace='java.package' name='org.openhab.core.library.items' range='0.0.0'/>
+        <required namespace='java.package' name='org.openhab.core.library.types' range='0.0.0'/>
+        <required namespace='java.package' name='org.openhab.core.types' range='0.0.0'/>
+        <required namespace='java.package' name='org.osgi.framework' range='0.0.0'/>
+        <required namespace='java.package' name='org.osgi.service.event' range='0.0.0'/>
+        <required namespace='java.package' name='org.slf4j' range='0.0.0'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.openhab.io.monitor' version='1.5.1'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.openhab.io.monitor&#xA;Bundle-Version: 1.5.1
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.openhab.io.multimedia.source' version='1.5.1' singleton='false'>
+      <update id='org.openhab.io.multimedia.source' range='[0.0.0,1.5.1)' severity='0'/>
+      <properties size='3'>
+        <property name='org.eclipse.equinox.p2.name' value='org.openhab.io.multimedia.source'/>
+        <property name='org.eclipse.equinox.p2.provider' value='%bundleVendor'/>
+        <property name='org.eclipse.equinox.p2.bundle.localization' value='plugin'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.openhab.io.multimedia.source' version='1.5.1'/>
+        <provided namespace='osgi.bundle' name='org.openhab.io.multimedia.source' version='1.5.1'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='source' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.openhab.io.multimedia.source' version='1.5.1'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.openhab.io.multimedia.source&#xA;Bundle-Version: 1.5.1
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.openhab.io.net.source' version='1.5.1' singleton='false'>
+      <update id='org.openhab.io.net.source' range='[0.0.0,1.5.1)' severity='0'/>
+      <properties size='3'>
+        <property name='org.eclipse.equinox.p2.name' value='org.openhab.io.net.source'/>
+        <property name='org.eclipse.equinox.p2.provider' value='%bundleVendor'/>
+        <property name='org.eclipse.equinox.p2.bundle.localization' value='plugin'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.openhab.io.net.source' version='1.5.1'/>
+        <provided namespace='osgi.bundle' name='org.openhab.io.net.source' version='1.5.1'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='source' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.openhab.io.net.source' version='1.5.1'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.openhab.io.net.source&#xA;Bundle-Version: 1.5.1
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.openhab.persistence.rrd4j.source' version='1.5.1' singleton='false'>
+      <update id='org.openhab.persistence.rrd4j.source' range='[0.0.0,1.5.1)' severity='0'/>
+      <properties size='3'>
+        <property name='org.eclipse.equinox.p2.name' value='org.openhab.persistence.rrd4j.source'/>
+        <property name='org.eclipse.equinox.p2.provider' value='%bundleVendor'/>
+        <property name='org.eclipse.equinox.p2.bundle.localization' value='plugin'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.openhab.persistence.rrd4j.source' version='1.5.1'/>
+        <provided namespace='osgi.bundle' name='org.openhab.persistence.rrd4j.source' version='1.5.1'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='source' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.openhab.persistence.rrd4j.source' version='1.5.1'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.openhab.persistence.rrd4j.source&#xA;Bundle-Version: 1.5.1
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.openhab.io.console.source' version='1.5.1' singleton='false'>
+      <update id='org.openhab.io.console.source' range='[0.0.0,1.5.1)' severity='0'/>
+      <properties size='3'>
+        <property name='org.eclipse.equinox.p2.name' value='org.openhab.io.console.source'/>
+        <property name='org.eclipse.equinox.p2.provider' value='%bundleVendor'/>
+        <property name='org.eclipse.equinox.p2.bundle.localization' value='plugin'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.openhab.io.console.source' version='1.5.1'/>
+        <provided namespace='osgi.bundle' name='org.openhab.io.console.source' version='1.5.1'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='source' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.openhab.io.console.source' version='1.5.1'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.openhab.io.console.source&#xA;Bundle-Version: 1.5.1
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.openhab.model.sitemap' version='1.5.1' singleton='false'>
+      <update id='org.openhab.model.sitemap' range='[0.0.0,1.5.1)' severity='0'/>
+      <properties size='3'>
+        <property name='org.eclipse.equinox.p2.name' value='org.openhab.model.sitemap; singleton:=true source'/>
+        <property name='org.eclipse.equinox.p2.provider' value='%bundleVendor'/>
+        <property name='org.eclipse.equinox.p2.bundle.localization' value='plugin'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.openhab.model.sitemap' version='1.5.1'/>
+        <provided namespace='osgi.bundle' name='org.openhab.model.sitemap' version='1.5.1'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='source' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.openhab.model.sitemap' version='1.5.1'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.openhab.model.sitemap; singleton:=true.source&#xA;Bundle-Version: 1.5.1
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.openhab.io.monitor.source' version='1.5.1' singleton='false'>
+      <update id='org.openhab.io.monitor.source' range='[0.0.0,1.5.1)' severity='0'/>
+      <properties size='3'>
+        <property name='org.eclipse.equinox.p2.name' value='org.openhab.io.monitor.source'/>
+        <property name='org.eclipse.equinox.p2.provider' value='%bundleVendor'/>
+        <property name='org.eclipse.equinox.p2.bundle.localization' value='plugin'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.openhab.io.monitor.source' version='1.5.1'/>
+        <provided namespace='osgi.bundle' name='org.openhab.io.monitor.source' version='1.5.1'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='source' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.openhab.io.monitor.source' version='1.5.1'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.openhab.io.monitor.source&#xA;Bundle-Version: 1.5.1
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.openhab.library.tel' version='1.5.1' singleton='false'>
+      <update id='org.openhab.library.tel' range='[0.0.0,1.5.1)' severity='0'/>
+      <properties size='4'>
+        <property name='org.eclipse.equinox.p2.name' value='openHAB Addon Library Telephony'/>
+        <property name='org.eclipse.equinox.p2.description' value='This is the runtime component of the open Home Automation Bus (openHAB)'/>
+        <property name='org.eclipse.equinox.p2.provider' value='openHAB.org'/>
+        <property name='org.eclipse.equinox.p2.doc.url' value='http://www.openhab.org'/>
+      </properties>
+      <provides size='5'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.openhab.library.tel' version='1.5.1'/>
+        <provided namespace='osgi.bundle' name='org.openhab.library.tel' version='1.5.1'/>
+        <provided namespace='java.package' name='org.openhab.library.tel.items' version='0.0.0'/>
+        <provided namespace='java.package' name='org.openhab.library.tel.types' version='0.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <requires size='6'>
+        <required namespace='java.package' name='org.apache.commons.lang' range='0.0.0'/>
+        <required namespace='java.package' name='org.openhab.core.items' range='0.0.0'/>
+        <required namespace='java.package' name='org.openhab.core.library.items' range='0.0.0'/>
+        <required namespace='java.package' name='org.openhab.core.library.types' range='0.0.0'/>
+        <required namespace='java.package' name='org.openhab.core.types' range='0.0.0'/>
+        <required namespace='java.package' name='org.osgi.framework' range='0.0.0'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.openhab.library.tel' version='1.5.1'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.openhab.library.tel&#xA;Bundle-Version: 1.5.1
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.openhab.core.autoupdate.source' version='1.5.1' singleton='false'>
+      <update id='org.openhab.core.autoupdate.source' range='[0.0.0,1.5.1)' severity='0'/>
+      <properties size='3'>
+        <property name='org.eclipse.equinox.p2.name' value='org.openhab.core.autoupdate.source'/>
+        <property name='org.eclipse.equinox.p2.provider' value='%bundleVendor'/>
+        <property name='org.eclipse.equinox.p2.bundle.localization' value='plugin'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.openhab.core.autoupdate.source' version='1.5.1'/>
+        <provided namespace='osgi.bundle' name='org.openhab.core.autoupdate.source' version='1.5.1'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='source' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.openhab.core.autoupdate.source' version='1.5.1'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.openhab.core.autoupdate.source&#xA;Bundle-Version: 1.5.1
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.openhab.io.servicediscovery.source' version='1.5.1' singleton='false'>
+      <update id='org.openhab.io.servicediscovery.source' range='[0.0.0,1.5.1)' severity='0'/>
+      <properties size='3'>
+        <property name='org.eclipse.equinox.p2.name' value='org.openhab.io.servicediscovery.source'/>
+        <property name='org.eclipse.equinox.p2.provider' value='%bundleVendor'/>
+        <property name='org.eclipse.equinox.p2.bundle.localization' value='plugin'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.openhab.io.servicediscovery.source' version='1.5.1'/>
+        <provided namespace='osgi.bundle' name='org.openhab.io.servicediscovery.source' version='1.5.1'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='source' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.openhab.io.servicediscovery.source' version='1.5.1'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.openhab.io.servicediscovery.source&#xA;Bundle-Version: 1.5.1
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.openhab.io.console' version='1.5.1' singleton='false'>
+      <update id='org.openhab.io.console' range='[0.0.0,1.5.1)' severity='0'/>
+      <properties size='4'>
+        <property name='org.eclipse.equinox.p2.name' value='openHAB Console'/>
+        <property name='org.eclipse.equinox.p2.description' value='This is the runtime component of the open Home Automation Bus (openHAB)'/>
+        <property name='org.eclipse.equinox.p2.provider' value='openHAB.org'/>
+        <property name='org.eclipse.equinox.p2.doc.url' value='http://www.openhab.org'/>
+      </properties>
+      <provides size='4'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.openhab.io.console' version='1.5.1'/>
+        <provided namespace='osgi.bundle' name='org.openhab.io.console' version='1.5.1'/>
+        <provided namespace='java.package' name='org.openhab.io.console' version='0.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <requires size='12'>
+        <required namespace='java.package' name='com.google.common.base' range='0.0.0'/>
+        <required namespace='java.package' name='org.apache.commons.lang' range='0.0.0'/>
+        <required namespace='java.package' name='org.eclipse.osgi.framework.console' range='0.0.0'/>
+        <required namespace='java.package' name='org.openhab.core.events' range='0.0.0'/>
+        <required namespace='java.package' name='org.openhab.core.items' range='0.0.0'/>
+        <required namespace='java.package' name='org.openhab.core.scriptengine' range='0.0.0'/>
+        <required namespace='java.package' name='org.openhab.core.types' range='0.0.0'/>
+        <required namespace='java.package' name='org.openhab.io.multimedia.actions' range='0.0.0' optional='true' greedy='false'/>
+        <required namespace='java.package' name='org.osgi.framework' range='0.0.0'/>
+        <required namespace='java.package' name='org.osgi.service.event' range='0.0.0'/>
+        <required namespace='java.package' name='org.osgi.util.tracker' range='0.0.0'/>
+        <required namespace='java.package' name='org.slf4j' range='0.0.0'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.openhab.io.console' version='1.5.1'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.openhab.io.console&#xA;Bundle-Version: 1.5.1
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.openhab.action.xbmc' version='1.5.1' singleton='false'>
+      <update id='org.openhab.action.xbmc' range='[0.0.0,1.5.1)' severity='0'/>
+      <properties size='4'>
+        <property name='org.eclipse.equinox.p2.name' value='openHAB XBMC Action'/>
+        <property name='org.eclipse.equinox.p2.description' value='This is the XBMC action of the open Home Automation Bus (openHAB)'/>
+        <property name='org.eclipse.equinox.p2.provider' value='openHAB.org'/>
+        <property name='org.eclipse.equinox.p2.doc.url' value='http://www.openhab.org'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.openhab.action.xbmc' version='1.5.1'/>
+        <provided namespace='osgi.bundle' name='org.openhab.action.xbmc' version='1.5.1'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <requires size='11'>
+        <required namespace='java.package' name='org.apache.commons.io' range='0.0.0'/>
+        <required namespace='java.package' name='org.apache.commons.lang' range='0.0.0'/>
+        <required namespace='java.package' name='org.openhab.core.items' range='0.0.0'/>
+        <required namespace='java.package' name='org.openhab.core.library.items' range='0.0.0'/>
+        <required namespace='java.package' name='org.openhab.core.library.types' range='0.0.0'/>
+        <required namespace='java.package' name='org.openhab.core.scriptengine.action' range='0.0.0'/>
+        <required namespace='java.package' name='org.openhab.core.types' range='0.0.0'/>
+        <required namespace='java.package' name='org.openhab.io.net.http' range='0.0.0'/>
+        <required namespace='java.package' name='org.osgi.framework' range='0.0.0'/>
+        <required namespace='java.package' name='org.osgi.service.component' range='0.0.0'/>
+        <required namespace='java.package' name='org.slf4j' range='0.0.0'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.openhab.action.xbmc' version='1.5.1'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.openhab.action.xbmc&#xA;Bundle-Version: 1.5.1
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.openhab.core.library' version='1.5.1' singleton='false'>
+      <update id='org.openhab.core.library' range='[0.0.0,1.5.1)' severity='0'/>
+      <properties size='4'>
+        <property name='org.eclipse.equinox.p2.name' value='openHAB Core Library'/>
+        <property name='org.eclipse.equinox.p2.description' value='This is the runtime component of the open Home Automation Bus (openHAB)'/>
+        <property name='org.eclipse.equinox.p2.provider' value='openHAB.org'/>
+        <property name='org.eclipse.equinox.p2.doc.url' value='http://www.openhab.org'/>
+      </properties>
+      <provides size='5'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.openhab.core.library' version='1.5.1'/>
+        <provided namespace='osgi.bundle' name='org.openhab.core.library' version='1.5.1'/>
+        <provided namespace='java.package' name='org.openhab.core.library.items' version='0.0.0'/>
+        <provided namespace='java.package' name='org.openhab.core.library.types' version='0.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <requires size='4'>
+        <required namespace='java.package' name='org.openhab.core.events' range='0.0.0'/>
+        <required namespace='java.package' name='org.openhab.core.items' range='0.0.0'/>
+        <required namespace='java.package' name='org.openhab.core.types' range='0.0.0'/>
+        <required namespace='java.package' name='org.osgi.framework' range='0.0.0'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.openhab.core.library' version='1.5.1'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.openhab.core.library&#xA;Bundle-Version: 1.5.1
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.openhab.model.core.source' version='1.5.1' singleton='false'>
+      <update id='org.openhab.model.core.source' range='[0.0.0,1.5.1)' severity='0'/>
+      <properties size='3'>
+        <property name='org.eclipse.equinox.p2.name' value='org.openhab.model.core.source'/>
+        <property name='org.eclipse.equinox.p2.provider' value='%bundleVendor'/>
+        <property name='org.eclipse.equinox.p2.bundle.localization' value='plugin'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.openhab.model.core.source' version='1.5.1'/>
+        <provided namespace='osgi.bundle' name='org.openhab.model.core.source' version='1.5.1'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='source' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.openhab.model.core.source' version='1.5.1'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.openhab.model.core.source&#xA;Bundle-Version: 1.5.1
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.openhab.binding.ntp' version='1.5.1' singleton='false'>
+      <update id='org.openhab.binding.ntp' range='[0.0.0,1.5.1)' severity='0'/>
+      <properties size='4'>
+        <property name='org.eclipse.equinox.p2.name' value='openHAB NTP Binding'/>
+        <property name='org.eclipse.equinox.p2.description' value='This is the NTP binding of the open Home Automation Bus (openHAB)'/>
+        <property name='org.eclipse.equinox.p2.provider' value='openHAB.org'/>
+        <property name='org.eclipse.equinox.p2.doc.url' value='http://www.openhab.org'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.openhab.binding.ntp' version='1.5.1'/>
+        <provided namespace='osgi.bundle' name='org.openhab.binding.ntp' version='1.5.1'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <requires size='16'>
+        <required namespace='java.package' name='org.apache.commons.lang' range='0.0.0'/>
+        <required namespace='java.package' name='org.apache.commons.net' range='0.0.0'/>
+        <required namespace='java.package' name='org.apache.commons.net.ntp' range='0.0.0'/>
+        <required namespace='java.package' name='org.openhab.core.binding' range='0.0.0'/>
+        <required namespace='java.package' name='org.openhab.core.events' range='0.0.0'/>
+        <required namespace='java.package' name='org.openhab.core.items' range='0.0.0'/>
+        <required namespace='java.package' name='org.openhab.core.library.items' range='0.0.0'/>
+        <required namespace='java.package' name='org.openhab.core.library.types' range='0.0.0'/>
+        <required namespace='java.package' name='org.openhab.core.service' range='0.0.0'/>
+        <required namespace='java.package' name='org.openhab.core.types' range='0.0.0'/>
+        <required namespace='java.package' name='org.openhab.model.item.binding' range='0.0.0'/>
+        <required namespace='java.package' name='org.osgi.framework' range='0.0.0'/>
+        <required namespace='java.package' name='org.osgi.service.cm' range='0.0.0'/>
+        <required namespace='java.package' name='org.osgi.service.component' range='0.0.0'/>
+        <required namespace='java.package' name='org.osgi.service.event' range='0.0.0'/>
+        <required namespace='java.package' name='org.slf4j' range='0.0.0'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.openhab.binding.ntp' version='1.5.1'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.openhab.binding.ntp&#xA;Bundle-Version: 1.5.1
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.apache.felix.fileinstall' version='3.2.6' singleton='false'>
+      <update id='org.apache.felix.fileinstall' range='[0.0.0,3.2.6)' severity='0'/>
+      <properties size='4'>
+        <property name='org.eclipse.equinox.p2.name' value='Apache Felix File Install'/>
+        <property name='org.eclipse.equinox.p2.description' value='A utility to automatically install bundles from a directory.'/>
+        <property name='org.eclipse.equinox.p2.provider' value='The Apache Software Foundation'/>
+        <property name='org.eclipse.equinox.p2.doc.url' value='http://felix.apache.org/site/apache-felix-file-install.html'/>
+      </properties>
+      <provides size='4'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.apache.felix.fileinstall' version='3.2.6'/>
+        <provided namespace='osgi.bundle' name='org.apache.felix.fileinstall' version='3.2.6'/>
+        <provided namespace='java.package' name='org.apache.felix.fileinstall' version='3.2.6'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <requires size='8'>
+        <required namespace='java.package' name='org.apache.felix.fileinstall' range='[3.2.0,4.0.0)'/>
+        <required namespace='java.package' name='org.osgi.framework' range='[1.4.0,2.0.0)'/>
+        <required namespace='java.package' name='org.osgi.service.cm' range='[1.3.0,2.0.0)' optional='true' greedy='false'/>
+        <required namespace='java.package' name='org.osgi.service.log' range='[1.3.0,2.0.0)' optional='true' greedy='false'/>
+        <required namespace='java.package' name='org.osgi.service.packageadmin' range='[1.2.0,2.0.0)'/>
+        <required namespace='java.package' name='org.osgi.service.startlevel' range='[1.1.0,2.0.0)'/>
+        <required namespace='java.package' name='org.osgi.service.url' range='[1.0.0,2.0.0)'/>
+        <required namespace='java.package' name='org.osgi.util.tracker' range='[1.4.0,2.0.0)'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.apache.felix.fileinstall' version='3.2.6'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.apache.felix.fileinstall&#xA;Bundle-Version: 3.2.6
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.openhab.core.scheduler' version='1.5.1' singleton='false'>
+      <update id='org.openhab.core.scheduler' range='[0.0.0,1.5.1)' severity='0'/>
+      <properties size='4'>
+        <property name='org.eclipse.equinox.p2.name' value='openHAB Scheduler Service'/>
+        <property name='org.eclipse.equinox.p2.description' value='This is the Scheduler Service of the open Home Automation Bus (openHAB)'/>
+        <property name='org.eclipse.equinox.p2.provider' value='openHAB.org'/>
+        <property name='org.eclipse.equinox.p2.doc.url' value='http://www.openhab.org'/>
+      </properties>
+      <provides size='8'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.openhab.core.scheduler' version='1.5.1'/>
+        <provided namespace='osgi.bundle' name='org.openhab.core.scheduler' version='1.5.1'/>
+        <provided namespace='java.package' name='org.quartz' version='0.0.0'/>
+        <provided namespace='java.package' name='org.quartz.impl' version='0.0.0'/>
+        <provided namespace='java.package' name='org.quartz.impl.calendar' version='0.0.0'/>
+        <provided namespace='java.package' name='org.quartz.impl.matchers' version='0.0.0'/>
+        <provided namespace='java.package' name='org.quartz.utils' version='0.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <requires size='3'>
+        <required namespace='java.package' name='org.osgi.framework' range='0.0.0'/>
+        <required namespace='java.package' name='org.osgi.service.component' range='0.0.0'/>
+        <required namespace='java.package' name='org.slf4j' range='1.5.11'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.openhab.core.scheduler' version='1.5.1'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.openhab.core.scheduler&#xA;Bundle-Version: 1.5.1
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.openhab.binding.mpd' version='1.5.1' singleton='false'>
+      <update id='org.openhab.binding.mpd' range='[0.0.0,1.5.1)' severity='0'/>
+      <properties size='4'>
+        <property name='org.eclipse.equinox.p2.name' value='openHAB MPD Binding'/>
+        <property name='org.eclipse.equinox.p2.description' value='This is the MPD binding of the open Home Automation Bus (openHAB)'/>
+        <property name='org.eclipse.equinox.p2.provider' value='openHAB.org'/>
+        <property name='org.eclipse.equinox.p2.doc.url' value='http://www.openhab.org'/>
+      </properties>
+      <provides size='4'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.openhab.binding.mpd' version='1.5.1'/>
+        <provided namespace='osgi.bundle' name='org.openhab.binding.mpd' version='1.5.1'/>
+        <provided namespace='java.package' name='org.openhab.binding.mpd' version='0.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <requires size='16'>
+        <required namespace='java.package' name='org.apache.commons.lang' range='0.0.0'/>
+        <required namespace='java.package' name='org.openhab.core.binding' range='0.0.0'/>
+        <required namespace='java.package' name='org.openhab.core.events' range='0.0.0'/>
+        <required namespace='java.package' name='org.openhab.core.items' range='0.0.0'/>
+        <required namespace='java.package' name='org.openhab.core.library.items' range='0.0.0'/>
+        <required namespace='java.package' name='org.openhab.core.library.types' range='0.0.0'/>
+        <required namespace='java.package' name='org.openhab.core.types' range='0.0.0'/>
+        <required namespace='java.package' name='org.openhab.model.item.binding' range='0.0.0'/>
+        <required namespace='java.package' name='org.osgi.framework' range='0.0.0'/>
+        <required namespace='java.package' name='org.osgi.service.cm' range='0.0.0'/>
+        <required namespace='java.package' name='org.osgi.service.component' range='0.0.0'/>
+        <required namespace='java.package' name='org.osgi.service.event' range='0.0.0'/>
+        <required namespace='java.package' name='org.quartz' range='0.0.0'/>
+        <required namespace='java.package' name='org.quartz.impl' range='0.0.0'/>
+        <required namespace='java.package' name='org.quartz.impl.matchers' range='0.0.0'/>
+        <required namespace='java.package' name='org.slf4j' range='0.0.0'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.openhab.binding.mpd' version='1.5.1'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.openhab.binding.mpd&#xA;Bundle-Version: 1.5.1
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.openhab.core.source' version='1.5.1' singleton='false'>
+      <update id='org.openhab.core.source' range='[0.0.0,1.5.1)' severity='0'/>
+      <properties size='3'>
+        <property name='org.eclipse.equinox.p2.name' value='org.openhab.core.source'/>
+        <property name='org.eclipse.equinox.p2.provider' value='%bundleVendor'/>
+        <property name='org.eclipse.equinox.p2.bundle.localization' value='plugin'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.openhab.core.source' version='1.5.1'/>
+        <provided namespace='osgi.bundle' name='org.openhab.core.source' version='1.5.1'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='source' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.openhab.core.source' version='1.5.1'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.openhab.core.source&#xA;Bundle-Version: 1.5.1
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.openhab.io.servicediscovery' version='1.5.1' singleton='false'>
+      <update id='org.openhab.io.servicediscovery' range='[0.0.0,1.5.1)' severity='0'/>
+      <properties size='2'>
+        <property name='org.eclipse.equinox.p2.name' value='openHAB Bonjour/MDS Service Discovery Bundle'/>
+        <property name='org.eclipse.equinox.p2.provider' value='openHAB.org'/>
+      </properties>
+      <provides size='4'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.openhab.io.servicediscovery' version='1.5.1'/>
+        <provided namespace='osgi.bundle' name='org.openhab.io.servicediscovery' version='1.5.1'/>
+        <provided namespace='java.package' name='org.openhab.io.servicediscovery' version='0.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <requires size='2'>
+        <required namespace='java.package' name='org.osgi.framework' range='0.0.0'/>
+        <required namespace='java.package' name='org.slf4j' range='1.6.1'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.openhab.io.servicediscovery' version='1.5.1'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.openhab.io.servicediscovery&#xA;Bundle-Version: 1.5.1
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.openhab.action.xmpp' version='1.5.1' singleton='false'>
+      <update id='org.openhab.action.xmpp' range='[0.0.0,1.5.1)' severity='0'/>
+      <properties size='4'>
+        <property name='org.eclipse.equinox.p2.name' value='openHAB XMPP Action'/>
+        <property name='org.eclipse.equinox.p2.description' value='This is the XMPP action of the open Home Automation Bus (openHAB)'/>
+        <property name='org.eclipse.equinox.p2.provider' value='openHAB.org'/>
+        <property name='org.eclipse.equinox.p2.doc.url' value='http://www.openhab.org'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.openhab.action.xmpp' version='1.5.1'/>
+        <provided namespace='osgi.bundle' name='org.openhab.action.xmpp' version='1.5.1'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <requires size='11'>
+        <required namespace='java.package' name='org.apache.commons.lang' range='0.0.0'/>
+        <required namespace='java.package' name='org.openhab.core.items' range='0.0.0'/>
+        <required namespace='java.package' name='org.openhab.core.library.items' range='0.0.0'/>
+        <required namespace='java.package' name='org.openhab.core.library.types' range='0.0.0'/>
+        <required namespace='java.package' name='org.openhab.core.scriptengine.action' range='0.0.0'/>
+        <required namespace='java.package' name='org.openhab.core.types' range='0.0.0'/>
+        <required namespace='java.package' name='org.openhab.io.console' range='0.0.0'/>
+        <required namespace='java.package' name='org.osgi.framework' range='0.0.0'/>
+        <required namespace='java.package' name='org.osgi.service.cm' range='0.0.0'/>
+        <required namespace='java.package' name='org.osgi.service.component' range='0.0.0'/>
+        <required namespace='java.package' name='org.slf4j' range='0.0.0'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.openhab.action.xmpp' version='1.5.1'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.openhab.action.xmpp&#xA;Bundle-Version: 1.5.1
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.openhab.persistence.rrd4j' version='1.5.1' singleton='false'>
+      <update id='org.openhab.persistence.rrd4j' range='[0.0.0,1.5.1)' severity='0'/>
+      <properties size='2'>
+        <property name='org.eclipse.equinox.p2.name' value='openHAB RRD4j Persistence Bundle'/>
+        <property name='org.eclipse.equinox.p2.provider' value='openHAB.org'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.openhab.persistence.rrd4j' version='1.5.1'/>
+        <provided namespace='osgi.bundle' name='org.openhab.persistence.rrd4j' version='1.5.1'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <requires size='16'>
+        <required namespace='java.package' name='javax.servlet' range='2.6.0'/>
+        <required namespace='java.package' name='org.apache.commons.io' range='0.0.0'/>
+        <required namespace='java.package' name='org.apache.commons.lang' range='0.0.0'/>
+        <required namespace='java.package' name='org.openhab.core.items' range='0.0.0'/>
+        <required namespace='java.package' name='org.openhab.core.library.items' range='0.0.0'/>
+        <required namespace='java.package' name='org.openhab.core.library.types' range='0.0.0'/>
+        <required namespace='java.package' name='org.openhab.core.persistence' range='0.0.0'/>
+        <required namespace='java.package' name='org.openhab.core.types' range='0.0.0'/>
+        <required namespace='java.package' name='org.openhab.io.net.http' range='0.0.0'/>
+        <required namespace='java.package' name='org.openhab.model.sitemap' range='0.0.0'/>
+        <required namespace='java.package' name='org.openhab.ui.chart' range='0.0.0'/>
+        <required namespace='java.package' name='org.openhab.ui.items' range='0.0.0'/>
+        <required namespace='java.package' name='org.osgi.framework' range='0.0.0'/>
+        <required namespace='java.package' name='org.osgi.service.cm' range='0.0.0'/>
+        <required namespace='java.package' name='org.osgi.service.http' range='1.2.1'/>
+        <required namespace='java.package' name='org.slf4j' range='0.0.0'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.openhab.persistence.rrd4j' version='1.5.1'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.openhab.persistence.rrd4j&#xA;Bundle-Version: 1.5.1
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.openhab.model.rule' version='1.5.1' singleton='false'>
+      <update id='org.openhab.model.rule' range='[0.0.0,1.5.1)' severity='0'/>
+      <properties size='3'>
+        <property name='org.eclipse.equinox.p2.name' value='org.openhab.model.rule; singleton:=true source'/>
+        <property name='org.eclipse.equinox.p2.provider' value='%bundleVendor'/>
+        <property name='org.eclipse.equinox.p2.bundle.localization' value='plugin'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.openhab.model.rule' version='1.5.1'/>
+        <provided namespace='osgi.bundle' name='org.openhab.model.rule' version='1.5.1'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='source' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.openhab.model.rule' version='1.5.1'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.openhab.model.rule; singleton:=true.source&#xA;Bundle-Version: 1.5.1
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.openhab.persistence.db4o' version='1.5.1' singleton='false'>
+      <update id='org.openhab.persistence.db4o' range='[0.0.0,1.5.1)' severity='0'/>
+      <properties size='3'>
+        <property name='org.eclipse.equinox.p2.name' value='org.openhab.persistence.db4o;singleton:=true.source'/>
+        <property name='org.eclipse.equinox.p2.provider' value='%bundleVendor'/>
+        <property name='org.eclipse.equinox.p2.bundle.localization' value='plugin'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.openhab.persistence.db4o' version='1.5.1'/>
+        <provided namespace='osgi.bundle' name='org.openhab.persistence.db4o' version='1.5.1'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='source' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.openhab.persistence.db4o' version='1.5.1'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.openhab.persistence.db4o;singleton:=true.source&#xA;Bundle-Version: 1.5.1
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.openhab.library.tel.source' version='1.5.1' singleton='false'>
+      <update id='org.openhab.library.tel.source' range='[0.0.0,1.5.1)' severity='0'/>
+      <properties size='3'>
+        <property name='org.eclipse.equinox.p2.name' value='org.openhab.library.tel.source'/>
+        <property name='org.eclipse.equinox.p2.provider' value='%bundleVendor'/>
+        <property name='org.eclipse.equinox.p2.bundle.localization' value='plugin'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.openhab.library.tel.source' version='1.5.1'/>
+        <provided namespace='osgi.bundle' name='org.openhab.library.tel.source' version='1.5.1'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='source' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.openhab.library.tel.source' version='1.5.1'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.openhab.library.tel.source&#xA;Bundle-Version: 1.5.1
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.openhab.action.xmpp.source' version='1.5.1' singleton='false'>
+      <update id='org.openhab.action.xmpp.source' range='[0.0.0,1.5.1)' severity='0'/>
+      <properties size='3'>
+        <property name='org.eclipse.equinox.p2.name' value='org.openhab.action.xmpp.source'/>
+        <property name='org.eclipse.equinox.p2.provider' value='%bundleVendor'/>
+        <property name='org.eclipse.equinox.p2.bundle.localization' value='plugin'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.openhab.action.xmpp.source' version='1.5.1'/>
+        <provided namespace='osgi.bundle' name='org.openhab.action.xmpp.source' version='1.5.1'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='source' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.openhab.action.xmpp.source' version='1.5.1'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.openhab.action.xmpp.source&#xA;Bundle-Version: 1.5.1
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.openhab.ui' version='1.5.1' singleton='false'>
+      <update id='org.openhab.ui' range='[0.0.0,1.5.1)' severity='0'/>
+      <properties size='4'>
+        <property name='org.eclipse.equinox.p2.name' value='openHAB UI'/>
+        <property name='org.eclipse.equinox.p2.description' value='This is the runtime UI component of the open Home Automation Bus (openHAB)'/>
+        <property name='org.eclipse.equinox.p2.provider' value='openHAB.org'/>
+        <property name='org.eclipse.equinox.p2.doc.url' value='http://www.openhab.org'/>
+      </properties>
+      <provides size='5'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.openhab.ui' version='1.5.1'/>
+        <provided namespace='osgi.bundle' name='org.openhab.ui' version='1.5.1'/>
+        <provided namespace='java.package' name='org.openhab.ui.chart' version='0.0.0'/>
+        <provided namespace='java.package' name='org.openhab.ui.items' version='0.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <requires size='23'>
+        <required namespace='java.package' name='javax.servlet' range='0.0.0'/>
+        <required namespace='java.package' name='javax.servlet.http' range='0.0.0'/>
+        <required namespace='java.package' name='org.apache.commons.httpclient' range='0.0.0'/>
+        <required namespace='java.package' name='org.apache.commons.httpclient.auth' range='0.0.0'/>
+        <required namespace='java.package' name='org.apache.commons.httpclient.methods' range='0.0.0'/>
+        <required namespace='java.package' name='org.apache.commons.httpclient.params' range='0.0.0'/>
+        <required namespace='java.package' name='org.apache.commons.io' range='0.0.0'/>
+        <required namespace='java.package' name='org.eclipse.emf.common.util' range='0.0.0'/>
+        <required namespace='java.package' name='org.eclipse.emf.ecore' range='0.0.0'/>
+        <required namespace='java.package' name='org.openhab.core.items' range='0.0.0'/>
+        <required namespace='java.package' name='org.openhab.core.library.items' range='0.0.0'/>
+        <required namespace='java.package' name='org.openhab.core.library.types' range='0.0.0'/>
+        <required namespace='java.package' name='org.openhab.core.persistence' range='0.0.0'/>
+        <required namespace='java.package' name='org.openhab.core.transform' range='0.0.0'/>
+        <required namespace='java.package' name='org.openhab.core.types' range='0.0.0'/>
+        <required namespace='java.package' name='org.openhab.io.net.http' range='0.0.0'/>
+        <required namespace='java.package' name='org.openhab.model.core' range='0.0.0'/>
+        <required namespace='java.package' name='org.openhab.model.items' range='0.0.0'/>
+        <required namespace='java.package' name='org.openhab.model.sitemap' range='0.0.0'/>
+        <required namespace='java.package' name='org.osgi.framework' range='0.0.0'/>
+        <required namespace='java.package' name='org.osgi.service.cm' range='1.4.0'/>
+        <required namespace='java.package' name='org.osgi.service.http' range='0.0.0'/>
+        <required namespace='java.package' name='org.slf4j' range='0.0.0'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.openhab.ui' version='1.5.1'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.openhab.ui&#xA;Bundle-Version: 1.5.1
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.openhab.io.cv.source' version='1.5.1' singleton='false'>
+      <update id='org.openhab.io.cv.source' range='[0.0.0,1.5.1)' severity='0'/>
+      <properties size='3'>
+        <property name='org.eclipse.equinox.p2.name' value='org.openhab.io.cv.source'/>
+        <property name='org.eclipse.equinox.p2.provider' value='%bundleVendor'/>
+        <property name='org.eclipse.equinox.p2.bundle.localization' value='plugin'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.openhab.io.cv.source' version='1.5.1'/>
+        <provided namespace='osgi.bundle' name='org.openhab.io.cv.source' version='1.5.1'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='source' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.openhab.io.cv.source' version='1.5.1'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.openhab.io.cv.source&#xA;Bundle-Version: 1.5.1
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.openhab.core.library.source' version='1.5.1' singleton='false'>
+      <update id='org.openhab.core.library.source' range='[0.0.0,1.5.1)' severity='0'/>
+      <properties size='3'>
+        <property name='org.eclipse.equinox.p2.name' value='org.openhab.core.library.source'/>
+        <property name='org.eclipse.equinox.p2.provider' value='%bundleVendor'/>
+        <property name='org.eclipse.equinox.p2.bundle.localization' value='plugin'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.openhab.core.library.source' version='1.5.1'/>
+        <provided namespace='osgi.bundle' name='org.openhab.core.library.source' version='1.5.1'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='source' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.openhab.core.library.source' version='1.5.1'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.openhab.core.library.source&#xA;Bundle-Version: 1.5.1
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+  </units>
+</repository>

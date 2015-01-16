@@ -1,0 +1,1028 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?metadataRepository version='1.1.0'?>
+<repository name='file:/Users/tuck/Dev/workspace-kepler/p2/twf-p2-site/target/repository - metadata' type='org.eclipse.equinox.internal.p2.metadata.repository.LocalMetadataRepository' version='1.0.23'>
+  <properties size='2'>
+    <property name='p2.timestamp' value='1410929640522'/>
+    <property name='p2.compressed' value='false'/>
+  </properties>
+  <units size='26'>
+    <unit id='org.apache.commons.logging' version='1.1.3' singleton='false'>
+      <update id='org.apache.commons.logging' range='[0.0.0,1.1.3)' severity='0'/>
+      <properties size='4'>
+        <property name='org.eclipse.equinox.p2.name' value='Commons Logging'/>
+        <property name='org.eclipse.equinox.p2.description' value='Commons Logging is a thin adapter allowing configurable bridging to other,    well known logging systems.'/>
+        <property name='org.eclipse.equinox.p2.provider' value='The Apache Software Foundation'/>
+        <property name='org.eclipse.equinox.p2.doc.url' value='http://commons.apache.org/proper/commons-logging/'/>
+      </properties>
+      <provides size='5'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.apache.commons.logging' version='1.1.3'/>
+        <provided namespace='osgi.bundle' name='org.apache.commons.logging' version='1.1.3'/>
+        <provided namespace='java.package' name='org.apache.commons.logging' version='1.1.3'/>
+        <provided namespace='java.package' name='org.apache.commons.logging.impl' version='1.1.3'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <requires size='4'>
+        <required namespace='java.package' name='javax.servlet' range='[2.1.0,3.0.0)' optional='true' greedy='false'/>
+        <required namespace='java.package' name='org.apache.avalon.framework.logger' range='[4.1.3,4.1.5]' optional='true' greedy='false'/>
+        <required namespace='java.package' name='org.apache.log' range='[1.0.1,1.0.1]' optional='true' greedy='false'/>
+        <required namespace='java.package' name='org.apache.log4j' range='[1.2.15,2.0.0)' optional='true' greedy='false'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.apache.commons.logging' version='1.1.3'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.apache.commons.logging&#xA;Bundle-Version: 1.1.3
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='file:/Users/tuck/Dev/workspace-kepler/p2/twf-p2-site/target/repository/category.xml.all' version='1.0.0.YnI768c8WcKXY--_m7z06er5'>
+      <properties size='2'>
+        <property name='org.eclipse.equinox.p2.name' value='Maven osgi-bundles'/>
+        <property name='org.eclipse.equinox.p2.type.category' value='true'/>
+      </properties>
+      <provides size='1'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='file:/Users/tuck/Dev/workspace-kepler/p2/twf-p2-site/target/repository/category.xml.all' version='1.0.0.YnI768c8WcKXY--_m7z06er5'/>
+      </provides>
+      <requires size='25'>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.apache.commons.logging' range='[1.1.3,1.1.3]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.springframework.spring-core' range='[4.0.6.RELEASE,4.0.6.RELEASE]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.google.guava.source' range='[16.0.0,16.0.0]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='openhab-lib-spray' range='[1.3.1,1.3.1]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.apache.felix.webconsole.source' range='[4.2.2,4.2.2]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.json.source' range='[20140107.0.0,20140107.0.0]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='openhab-lib-spray.source' range='[1.3.1,1.3.1]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='openhab-lib-scala.source' range='[2.11.2,2.11.2]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='openhab-lib-jackson.source' range='[2.4.2,2.4.2]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.json' range='[20140107.0.0,20140107.0.0]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.springframework.spring-core.source' range='[4.0.6.RELEASE,4.0.6.RELEASE]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.google.guava' range='[17.0.0,17.0.0]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.apache.commons.io' range='[2.2.0,2.2.0]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.apache.commons.fileupload.source' range='[1.3.1,1.3.1]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='net.whistlingfish.harmony-client' range='[1.0.3,1.0.3]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.apache.commons.logging.source' range='[1.1.3,1.1.3]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.google.guava.source' range='[17.0.0,17.0.0]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='openhab-lib-jackson' range='[2.4.2,2.4.2]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.apache.commons.io.source' range='[2.2.0,2.2.0]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.springframework.spring-expression.source' range='[4.0.6.RELEASE,4.0.6.RELEASE]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.apache.commons.fileupload' range='[1.3.1,1.3.1]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.springframework.spring-expression' range='[4.0.6.RELEASE,4.0.6.RELEASE]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.apache.felix.webconsole' range='[4.2.2,4.2.2]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='openhab-lib-scala' range='[2.11.2,2.11.2]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.google.guava' range='[16.0.0,16.0.0]'/>
+      </requires>
+      <touchpoint id='null' version='0.0.0'/>
+    </unit>
+    <unit id='org.springframework.spring-core' version='4.0.6.RELEASE' singleton='false'>
+      <update id='org.springframework.spring-core' range='[0.0.0,4.0.6.RELEASE)' severity='0'/>
+      <properties size='1'>
+        <property name='org.eclipse.equinox.p2.name' value='org.springframework.spring-core'/>
+      </properties>
+      <provides size='41'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.springframework.spring-core' version='4.0.6.RELEASE'/>
+        <provided namespace='osgi.bundle' name='org.springframework.spring-core' version='4.0.6.RELEASE'/>
+        <provided namespace='java.package' name='org.springframework.asm' version='0.0.0'/>
+        <provided namespace='java.package' name='org.springframework.cglib' version='0.0.0'/>
+        <provided namespace='java.package' name='org.springframework.cglib.beans' version='0.0.0'/>
+        <provided namespace='java.package' name='org.springframework.cglib.core' version='0.0.0'/>
+        <provided namespace='java.package' name='org.springframework.cglib.proxy' version='0.0.0'/>
+        <provided namespace='java.package' name='org.springframework.cglib.reflect' version='0.0.0'/>
+        <provided namespace='java.package' name='org.springframework.cglib.transform' version='0.0.0'/>
+        <provided namespace='java.package' name='org.springframework.cglib.transform.impl' version='0.0.0'/>
+        <provided namespace='java.package' name='org.springframework.cglib.util' version='0.0.0'/>
+        <provided namespace='java.package' name='org.springframework.core' version='0.0.0'/>
+        <provided namespace='java.package' name='org.springframework.core.annotation' version='0.0.0'/>
+        <provided namespace='java.package' name='org.springframework.core.convert' version='0.0.0'/>
+        <provided namespace='java.package' name='org.springframework.core.convert.converter' version='0.0.0'/>
+        <provided namespace='java.package' name='org.springframework.core.convert.support' version='0.0.0'/>
+        <provided namespace='java.package' name='org.springframework.core.env' version='0.0.0'/>
+        <provided namespace='java.package' name='org.springframework.core.io' version='0.0.0'/>
+        <provided namespace='java.package' name='org.springframework.core.io.support' version='0.0.0'/>
+        <provided namespace='java.package' name='org.springframework.core.serializer' version='0.0.0'/>
+        <provided namespace='java.package' name='org.springframework.core.serializer.support' version='0.0.0'/>
+        <provided namespace='java.package' name='org.springframework.core.style' version='0.0.0'/>
+        <provided namespace='java.package' name='org.springframework.core.task' version='0.0.0'/>
+        <provided namespace='java.package' name='org.springframework.core.task.support' version='0.0.0'/>
+        <provided namespace='java.package' name='org.springframework.core.type' version='0.0.0'/>
+        <provided namespace='java.package' name='org.springframework.core.type.classreading' version='0.0.0'/>
+        <provided namespace='java.package' name='org.springframework.core.type.filter' version='0.0.0'/>
+        <provided namespace='java.package' name='org.springframework.objenesis' version='0.0.0'/>
+        <provided namespace='java.package' name='org.springframework.objenesis.instantiator' version='0.0.0'/>
+        <provided namespace='java.package' name='org.springframework.objenesis.instantiator.android' version='0.0.0'/>
+        <provided namespace='java.package' name='org.springframework.objenesis.instantiator.basic' version='0.0.0'/>
+        <provided namespace='java.package' name='org.springframework.objenesis.instantiator.gcj' version='0.0.0'/>
+        <provided namespace='java.package' name='org.springframework.objenesis.instantiator.jrockit' version='0.0.0'/>
+        <provided namespace='java.package' name='org.springframework.objenesis.instantiator.perc' version='0.0.0'/>
+        <provided namespace='java.package' name='org.springframework.objenesis.instantiator.sun' version='0.0.0'/>
+        <provided namespace='java.package' name='org.springframework.objenesis.strategy' version='0.0.0'/>
+        <provided namespace='java.package' name='org.springframework.util' version='0.0.0'/>
+        <provided namespace='java.package' name='org.springframework.util.comparator' version='0.0.0'/>
+        <provided namespace='java.package' name='org.springframework.util.concurrent' version='0.0.0'/>
+        <provided namespace='java.package' name='org.springframework.util.xml' version='0.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <requires size='24'>
+        <required namespace='java.package' name='javax.net' range='0.0.0' optional='true' greedy='false'/>
+        <required namespace='java.package' name='javax.xml' range='0.0.0' optional='true' greedy='false'/>
+        <required namespace='java.package' name='javax.xml.namespace' range='0.0.0' optional='true' greedy='false'/>
+        <required namespace='java.package' name='javax.xml.stream' range='0.0.0' optional='true' greedy='false'/>
+        <required namespace='java.package' name='javax.xml.stream.events' range='0.0.0' optional='true' greedy='false'/>
+        <required namespace='java.package' name='javax.xml.transform' range='0.0.0' optional='true' greedy='false'/>
+        <required namespace='java.package' name='javax.xml.transform.sax' range='0.0.0' optional='true' greedy='false'/>
+        <required namespace='java.package' name='javax.xml.transform.stax' range='0.0.0' optional='true' greedy='false'/>
+        <required namespace='java.package' name='joptsimple' range='0.0.0' optional='true' greedy='false'/>
+        <required namespace='java.package' name='org.apache.commons.logging' range='0.0.0' optional='true' greedy='false'/>
+        <required namespace='java.package' name='org.apache.log4j' range='0.0.0' optional='true' greedy='false'/>
+        <required namespace='java.package' name='org.apache.log4j.xml' range='0.0.0' optional='true' greedy='false'/>
+        <required namespace='java.package' name='org.apache.tools.ant' range='0.0.0' optional='true' greedy='false'/>
+        <required namespace='java.package' name='org.apache.tools.ant.types' range='0.0.0' optional='true' greedy='false'/>
+        <required namespace='java.package' name='org.aspectj.bridge' range='0.0.0' optional='true' greedy='false'/>
+        <required namespace='java.package' name='org.aspectj.weaver' range='0.0.0' optional='true' greedy='false'/>
+        <required namespace='java.package' name='org.aspectj.weaver.bcel' range='0.0.0' optional='true' greedy='false'/>
+        <required namespace='java.package' name='org.aspectj.weaver.patterns' range='0.0.0' optional='true' greedy='false'/>
+        <required namespace='java.package' name='org.springframework.asm.util' range='0.0.0' optional='true' greedy='false'/>
+        <required namespace='java.package' name='org.w3c.dom' range='0.0.0' optional='true' greedy='false'/>
+        <required namespace='java.package' name='org.xml.sax' range='0.0.0' optional='true' greedy='false'/>
+        <required namespace='java.package' name='org.xml.sax.ext' range='0.0.0' optional='true' greedy='false'/>
+        <required namespace='java.package' name='org.xml.sax.helpers' range='0.0.0' optional='true' greedy='false'/>
+        <required namespace='java.package' name='sun.misc' range='0.0.0' optional='true' greedy='false'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.springframework.spring-core' version='4.0.6.RELEASE'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.springframework.spring-core&#xA;Bundle-Version: 4.0.6.RELEASE
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='com.google.guava.source' version='16.0.0' singleton='false'>
+      <update id='com.google.guava.source' range='[0.0.0,16.0.0)' severity='0'/>
+      <properties size='2'>
+        <property name='org.eclipse.equinox.p2.name' value='com.google.guava.source'/>
+        <property name='org.eclipse.equinox.p2.bundle.localization' value='plugin'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.google.guava.source' version='16.0.0'/>
+        <provided namespace='osgi.bundle' name='com.google.guava.source' version='16.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='source' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='com.google.guava.source' version='16.0.0'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: com.google.guava.source&#xA;Bundle-Version: 16.0.0
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='openhab-lib-spray' version='1.3.1' singleton='false'>
+      <update id='openhab-lib-spray' range='[0.0.0,1.3.1)' severity='0'/>
+      <properties size='1'>
+        <property name='org.eclipse.equinox.p2.name' value='Openhab Spray.IO Bundle'/>
+      </properties>
+      <provides size='20'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='openhab-lib-spray' version='1.3.1'/>
+        <provided namespace='osgi.bundle' name='openhab-lib-spray' version='1.3.1'/>
+        <provided namespace='java.package' name='spray.client' version='1.3.1'/>
+        <provided namespace='java.package' name='spray.can' version='1.3.1'/>
+        <provided namespace='java.package' name='spray.can.client' version='1.3.1'/>
+        <provided namespace='java.package' name='spray.can.parsing' version='1.3.1'/>
+        <provided namespace='java.package' name='spray.can.rendering' version='1.3.1'/>
+        <provided namespace='java.package' name='spray.can.server' version='1.3.1'/>
+        <provided namespace='java.package' name='spray.io' version='1.3.1'/>
+        <provided namespace='java.package' name='spray.http' version='1.3.1'/>
+        <provided namespace='java.package' name='spray.http.parser' version='1.3.1'/>
+        <provided namespace='java.package' name='spray.httpx' version='1.3.1'/>
+        <provided namespace='java.package' name='spray.httpx.encoding' version='1.3.1'/>
+        <provided namespace='java.package' name='spray.httpx.marshalling' version='1.3.1'/>
+        <provided namespace='java.package' name='spray.httpx.unmarshalling' version='1.3.1'/>
+        <provided namespace='java.package' name='akka.spray' version='1.3.1'/>
+        <provided namespace='java.package' name='spray.util' version='1.3.1'/>
+        <provided namespace='java.package' name='spray.util.pimps' version='1.3.1'/>
+        <provided namespace='java.package' name='spray.json' version='1.2.6'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <requires size='80'>
+        <required namespace='java.package' name='scala' range='[2.11.0,2.12.0)'/>
+        <required namespace='java.package' name='scala.annotation' range='[2.11.0,2.12.0)'/>
+        <required namespace='java.package' name='scala.annotation.meta' range='[2.11.0,2.12.0)'/>
+        <required namespace='java.package' name='scala.annotation.unchecked' range='[2.11.0,2.12.0)'/>
+        <required namespace='java.package' name='scala.beans' range='[2.11.0,2.12.0)'/>
+        <required namespace='java.package' name='scala.collection' range='[2.11.0,2.12.0)'/>
+        <required namespace='java.package' name='scala.collection.concurrent' range='[2.11.0,2.12.0)'/>
+        <required namespace='java.package' name='scala.collection.convert' range='[2.11.0,2.12.0)'/>
+        <required namespace='java.package' name='scala.collection.generic' range='[2.11.0,2.12.0)'/>
+        <required namespace='java.package' name='scala.collection.immutable' range='[2.11.0,2.12.0)'/>
+        <required namespace='java.package' name='scala.collection.mutable' range='[2.11.0,2.12.0)'/>
+        <required namespace='java.package' name='scala.collection.parallel' range='[2.11.0,2.12.0)'/>
+        <required namespace='java.package' name='scala.collection.parallel.immutable' range='[2.11.0,2.12.0)'/>
+        <required namespace='java.package' name='scala.collection.parallel.mutable' range='[2.11.0,2.12.0)'/>
+        <required namespace='java.package' name='scala.collection.script' range='[2.11.0,2.12.0)'/>
+        <required namespace='java.package' name='scala.compat' range='[2.11.0,2.12.0)'/>
+        <required namespace='java.package' name='scala.concurrent' range='[2.11.0,2.12.0)'/>
+        <required namespace='java.package' name='scala.concurrent.duration' range='[2.11.0,2.12.0)'/>
+        <required namespace='java.package' name='scala.concurrent.forkjoin' range='[2.11.0,2.12.0)'/>
+        <required namespace='java.package' name='scala.concurrent.util' range='[2.11.0,2.12.0)'/>
+        <required namespace='java.package' name='scala.io' range='[2.11.0,2.12.0)'/>
+        <required namespace='java.package' name='scala.math' range='[2.11.0,2.12.0)'/>
+        <required namespace='java.package' name='scala.ref' range='[2.11.0,2.12.0)'/>
+        <required namespace='java.package' name='scala.reflect' range='[2.11.0,2.12.0)'/>
+        <required namespace='java.package' name='scala.reflect.macros.internal' range='[2.11.0,2.12.0)'/>
+        <required namespace='java.package' name='scala.runtime' range='[2.11.0,2.12.0)'/>
+        <required namespace='java.package' name='scala.sys' range='[2.11.0,2.12.0)'/>
+        <required namespace='java.package' name='scala.sys.process' range='[2.11.0,2.12.0)'/>
+        <required namespace='java.package' name='scala.text' range='[2.11.0,2.12.0)'/>
+        <required namespace='java.package' name='scala.util' range='[2.11.0,2.12.0)'/>
+        <required namespace='java.package' name='scala.util.control' range='[2.11.0,2.12.0)'/>
+        <required namespace='java.package' name='scala.util.hashing' range='[2.11.0,2.12.0)'/>
+        <required namespace='java.package' name='scala.util.matching' range='[2.11.0,2.12.0)'/>
+        <required namespace='java.package' name='scala.reflect.api' range='[2.11.0,2.12.0)'/>
+        <required namespace='java.package' name='scala.reflect.io' range='[2.11.0,2.12.0)'/>
+        <required namespace='java.package' name='scala.reflect.macros' range='[2.11.0,2.12.0)'/>
+        <required namespace='java.package' name='scala.reflect.macros.blackbox' range='[2.11.0,2.12.0)'/>
+        <required namespace='java.package' name='scala.reflect.macros.whitebox' range='[2.11.0,2.12.0)'/>
+        <required namespace='java.package' name='scala.reflect.runtime' range='[2.11.0,2.12.0)'/>
+        <required namespace='java.package' name='scala.xml' range='[2.11.0,2.12.0)'/>
+        <required namespace='java.package' name='scala.xml.dtd' range='[2.11.0,2.12.0)'/>
+        <required namespace='java.package' name='scala.xml.factory' range='[2.11.0,2.12.0)'/>
+        <required namespace='java.package' name='scala.xml.include' range='[2.11.0,2.12.0)'/>
+        <required namespace='java.package' name='scala.xml.include.sax' range='[2.11.0,2.12.0)'/>
+        <required namespace='java.package' name='scala.xml.parsing' range='[2.11.0,2.12.0)'/>
+        <required namespace='java.package' name='scala.xml.persistent' range='[2.11.0,2.12.0)'/>
+        <required namespace='java.package' name='scala.xml.pull' range='[2.11.0,2.12.0)'/>
+        <required namespace='java.package' name='scala.xml.transform' range='[2.11.0,2.12.0)'/>
+        <required namespace='java.package' name='akka' range='[2.3.0,2.4.0)'/>
+        <required namespace='java.package' name='akka.actor' range='[2.3.0,2.4.0)'/>
+        <required namespace='java.package' name='akka.actor.dsl' range='[2.3.0,2.4.0)'/>
+        <required namespace='java.package' name='akka.actor.dungeon' range='[2.3.0,2.4.0)'/>
+        <required namespace='java.package' name='akka.dispatch' range='[2.3.0,2.4.0)'/>
+        <required namespace='java.package' name='akka.dispatch.sysmsg' range='[2.3.0,2.4.0)'/>
+        <required namespace='java.package' name='akka.event' range='[2.3.0,2.4.0)'/>
+        <required namespace='java.package' name='akka.event.japi' range='[2.3.0,2.4.0)'/>
+        <required namespace='java.package' name='akka.io' range='[2.3.0,2.4.0)'/>
+        <required namespace='java.package' name='akka.japi' range='[2.3.0,2.4.0)'/>
+        <required namespace='java.package' name='akka.japi.pf' range='[2.3.0,2.4.0)'/>
+        <required namespace='java.package' name='akka.pattern' range='[2.3.0,2.4.0)'/>
+        <required namespace='java.package' name='akka.routing' range='[2.3.0,2.4.0)'/>
+        <required namespace='java.package' name='akka.serialization' range='[2.3.0,2.4.0)'/>
+        <required namespace='java.package' name='akka.util' range='[2.3.0,2.4.0)'/>
+        <required namespace='java.package' name='com.fasterxml.jackson.module.scala' range='[2.4.0,2.5.0)'/>
+        <required namespace='java.package' name='com.fasterxml.jackson.module.scala.deser' range='[2.4.0,2.5.0)'/>
+        <required namespace='java.package' name='com.fasterxml.jackson.module.scala.experimental' range='[2.4.0,2.5.0)'/>
+        <required namespace='java.package' name='com.fasterxml.jackson.module.scala.introspect' range='[2.4.0,2.5.0)'/>
+        <required namespace='java.package' name='com.fasterxml.jackson.module.scala.modifiers' range='[2.4.0,2.5.0)'/>
+        <required namespace='java.package' name='com.fasterxml.jackson.module.scala.ser' range='[2.4.0,2.5.0)'/>
+        <required namespace='java.package' name='com.fasterxml.jackson.module.scala.util' range='[2.4.0,2.5.0)'/>
+        <required namespace='java.package' name='com.typesafe.config' range='[1.2.0,1.3.0)'/>
+        <required namespace='java.package' name='javax.xml.parsers' range='0.0.0'/>
+        <required namespace='java.package' name='org.xml.sax' range='0.0.0'/>
+        <required namespace='java.package' name='net.liftweb.json' range='0.0.0' optional='true' greedy='false'/>
+        <required namespace='java.package' name='org.json4s' range='0.0.0' optional='true' greedy='false'/>
+        <required namespace='java.package' name='org.json4s.jackson' range='0.0.0' optional='true' greedy='false'/>
+        <required namespace='java.package' name='org.json4s.native' range='0.0.0' optional='true' greedy='false'/>
+        <required namespace='java.package' name='play.api.data.validation' range='0.0.0' optional='true' greedy='false'/>
+        <required namespace='java.package' name='play.api.libs.json' range='0.0.0' optional='true' greedy='false'/>
+        <required namespace='java.package' name='twirl.api' range='0.0.0' optional='true' greedy='false'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='openhab-lib-spray' version='1.3.1'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: openhab-lib-spray&#xA;Bundle-Version: 1.3.1
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.apache.felix.webconsole.source' version='4.2.2' singleton='false'>
+      <update id='org.apache.felix.webconsole.source' range='[0.0.0,4.2.2)' severity='0'/>
+      <properties size='2'>
+        <property name='org.eclipse.equinox.p2.name' value='org.apache.felix.webconsole.source'/>
+        <property name='org.eclipse.equinox.p2.bundle.localization' value='plugin'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.apache.felix.webconsole.source' version='4.2.2'/>
+        <provided namespace='osgi.bundle' name='org.apache.felix.webconsole.source' version='4.2.2'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='source' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.apache.felix.webconsole.source' version='4.2.2'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.apache.felix.webconsole.source&#xA;Bundle-Version: 4.2.2
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.json.source' version='20140107.0.0' singleton='false'>
+      <update id='org.json.source' range='[0.0.0,20140107.0.0)' severity='0'/>
+      <properties size='2'>
+        <property name='org.eclipse.equinox.p2.name' value='org.json.source'/>
+        <property name='org.eclipse.equinox.p2.bundle.localization' value='plugin'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.json.source' version='20140107.0.0'/>
+        <provided namespace='osgi.bundle' name='org.json.source' version='20140107.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='source' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.json.source' version='20140107.0.0'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.json.source&#xA;Bundle-Version: 20140107.0.0
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='openhab-lib-spray.source' version='1.3.1' singleton='false'>
+      <update id='openhab-lib-spray.source' range='[0.0.0,1.3.1)' severity='0'/>
+      <properties size='2'>
+        <property name='org.eclipse.equinox.p2.name' value='openhab-lib-spray.source'/>
+        <property name='org.eclipse.equinox.p2.bundle.localization' value='plugin'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='openhab-lib-spray.source' version='1.3.1'/>
+        <provided namespace='osgi.bundle' name='openhab-lib-spray.source' version='1.3.1'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='source' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='openhab-lib-spray.source' version='1.3.1'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: openhab-lib-spray.source&#xA;Bundle-Version: 1.3.1
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='openhab-lib-scala.source' version='2.11.2' singleton='false'>
+      <update id='openhab-lib-scala.source' range='[0.0.0,2.11.2)' severity='0'/>
+      <properties size='2'>
+        <property name='org.eclipse.equinox.p2.name' value='openhab-lib-scala.source'/>
+        <property name='org.eclipse.equinox.p2.bundle.localization' value='plugin'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='openhab-lib-scala.source' version='2.11.2'/>
+        <provided namespace='osgi.bundle' name='openhab-lib-scala.source' version='2.11.2'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='source' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='openhab-lib-scala.source' version='2.11.2'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: openhab-lib-scala.source&#xA;Bundle-Version: 2.11.2
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='openhab-lib-jackson.source' version='2.4.2' singleton='false'>
+      <update id='openhab-lib-jackson.source' range='[0.0.0,2.4.2)' severity='0'/>
+      <properties size='2'>
+        <property name='org.eclipse.equinox.p2.name' value='openhab-lib-jackson.source'/>
+        <property name='org.eclipse.equinox.p2.bundle.localization' value='plugin'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='openhab-lib-jackson.source' version='2.4.2'/>
+        <provided namespace='osgi.bundle' name='openhab-lib-jackson.source' version='2.4.2'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='source' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='openhab-lib-jackson.source' version='2.4.2'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: openhab-lib-jackson.source&#xA;Bundle-Version: 2.4.2
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.json' version='20140107.0.0' singleton='false'>
+      <update id='org.json' range='[0.0.0,20140107.0.0)' severity='0'/>
+      <properties size='1'>
+        <property name='org.eclipse.equinox.p2.name' value='org.json'/>
+      </properties>
+      <provides size='5'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.json' version='20140107.0.0'/>
+        <provided namespace='osgi.bundle' name='org.json' version='20140107.0.0'/>
+        <provided namespace='java.package' name='org.json' version='0.0.0'/>
+        <provided namespace='java.package' name='org.json.zip' version='0.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.json' version='20140107.0.0'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.json&#xA;Bundle-Version: 20140107.0.0
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.springframework.spring-core.source' version='4.0.6.RELEASE' singleton='false'>
+      <update id='org.springframework.spring-core.source' range='[0.0.0,4.0.6.RELEASE)' severity='0'/>
+      <properties size='2'>
+        <property name='org.eclipse.equinox.p2.name' value='org.springframework.spring-core.source'/>
+        <property name='org.eclipse.equinox.p2.bundle.localization' value='plugin'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.springframework.spring-core.source' version='4.0.6.RELEASE'/>
+        <provided namespace='osgi.bundle' name='org.springframework.spring-core.source' version='4.0.6.RELEASE'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='source' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.springframework.spring-core.source' version='4.0.6.RELEASE'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.springframework.spring-core.source&#xA;Bundle-Version: 4.0.6.RELEASE
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.apache.commons.io' version='2.2.0' singleton='false'>
+      <update id='org.apache.commons.io' range='[0.0.0,2.2.0)' severity='0'/>
+      <properties size='4'>
+        <property name='org.eclipse.equinox.p2.name' value='Commons IO'/>
+        <property name='org.eclipse.equinox.p2.description' value='The Commons IO library contains utility classes, stream implementations, file filters, file comparators, endian transformation classes, and much more.'/>
+        <property name='org.eclipse.equinox.p2.provider' value='The Apache Software Foundation'/>
+        <property name='org.eclipse.equinox.p2.doc.url' value='http://commons.apache.org/io/'/>
+      </properties>
+      <provides size='9'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.apache.commons.io' version='2.2.0'/>
+        <provided namespace='osgi.bundle' name='org.apache.commons.io' version='2.2.0'/>
+        <provided namespace='java.package' name='org.apache.commons.io.output' version='2.2.0'/>
+        <provided namespace='java.package' name='org.apache.commons.io.monitor' version='2.2.0'/>
+        <provided namespace='java.package' name='org.apache.commons.io.filefilter' version='2.2.0'/>
+        <provided namespace='java.package' name='org.apache.commons.io.comparator' version='2.2.0'/>
+        <provided namespace='java.package' name='org.apache.commons.io.input' version='2.2.0'/>
+        <provided namespace='java.package' name='org.apache.commons.io' version='2.2.0'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.apache.commons.io' version='2.2.0'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.apache.commons.io&#xA;Bundle-Version: 2.2.0
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='com.google.guava' version='17.0.0' singleton='false'>
+      <update id='com.google.guava' range='[0.0.0,17.0.0)' severity='0'/>
+      <properties size='2'>
+        <property name='org.eclipse.equinox.p2.name' value='Guava: Google Core Libraries for Java'/>
+        <property name='org.eclipse.equinox.p2.description' value='Guava is a suite of core and expanded libraries that include    utility classes, google&apos;s collections, io classes, and much    much more.    Guava has only one code dependency - javax.annotation,    per the JSR-305 spec.'/>
+      </properties>
+      <provides size='18'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.google.guava' version='17.0.0'/>
+        <provided namespace='osgi.bundle' name='com.google.guava' version='17.0.0'/>
+        <provided namespace='java.package' name='com.google.common.net' version='17.0.0'/>
+        <provided namespace='java.package' name='com.google.common.html' version='17.0.0'/>
+        <provided namespace='java.package' name='com.google.common.collect' version='17.0.0'/>
+        <provided namespace='java.package' name='com.google.common.primitives' version='17.0.0'/>
+        <provided namespace='java.package' name='com.google.common.base' version='17.0.0'/>
+        <provided namespace='java.package' name='com.google.common.escape' version='17.0.0'/>
+        <provided namespace='java.package' name='com.google.common.cache' version='17.0.0'/>
+        <provided namespace='java.package' name='com.google.common.eventbus' version='17.0.0'/>
+        <provided namespace='java.package' name='com.google.common.util.concurrent' version='17.0.0'/>
+        <provided namespace='java.package' name='com.google.common.hash' version='17.0.0'/>
+        <provided namespace='java.package' name='com.google.common.io' version='17.0.0'/>
+        <provided namespace='java.package' name='com.google.common.xml' version='17.0.0'/>
+        <provided namespace='java.package' name='com.google.common.reflect' version='17.0.0'/>
+        <provided namespace='java.package' name='com.google.common.math' version='17.0.0'/>
+        <provided namespace='java.package' name='com.google.common.annotations' version='17.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <requires size='3'>
+        <required namespace='java.package' name='javax.annotation' range='0.0.0' optional='true' greedy='false'/>
+        <required namespace='java.package' name='javax.inject' range='0.0.0' optional='true' greedy='false'/>
+        <required namespace='java.package' name='sun.misc' range='0.0.0' optional='true' greedy='false'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='com.google.guava' version='17.0.0'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: com.google.guava&#xA;Bundle-Version: 17.0.0
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='net.whistlingfish.harmony-client' version='1.0.3' singleton='false'>
+      <update id='net.whistlingfish.harmony-client' range='[0.0.0,1.0.3)' severity='0'/>
+      <properties size='1'>
+        <property name='org.eclipse.equinox.p2.name' value='harmony-client'/>
+      </properties>
+      <provides size='5'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='net.whistlingfish.harmony-client' version='1.0.3'/>
+        <provided namespace='osgi.bundle' name='net.whistlingfish.harmony-client' version='1.0.3'/>
+        <provided namespace='java.package' name='net.whistlingfish.harmony' version='1.0.3'/>
+        <provided namespace='java.package' name='net.whistlingfish.harmony.config' version='1.0.3'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <requires size='3'>
+        <required namespace='java.package' name='net.whistlingfish.harmony.config' range='1.0.3'/>
+        <required namespace='java.package' name='org.slf4j' range='[1.7.0,1.8.0)'/>
+        <required namespace='java.package' name='sun.misc' range='0.0.0' optional='true' greedy='false'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='net.whistlingfish.harmony-client' version='1.0.3'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: net.whistlingfish.harmony-client&#xA;Bundle-Version: 1.0.3
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.apache.commons.fileupload.source' version='1.3.1' singleton='false'>
+      <update id='org.apache.commons.fileupload.source' range='[0.0.0,1.3.1)' severity='0'/>
+      <properties size='2'>
+        <property name='org.eclipse.equinox.p2.name' value='org.apache.commons.fileupload.source'/>
+        <property name='org.eclipse.equinox.p2.bundle.localization' value='plugin'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.apache.commons.fileupload.source' version='1.3.1'/>
+        <provided namespace='osgi.bundle' name='org.apache.commons.fileupload.source' version='1.3.1'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='source' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.apache.commons.fileupload.source' version='1.3.1'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.apache.commons.fileupload.source&#xA;Bundle-Version: 1.3.1
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.apache.commons.logging.source' version='1.1.3' singleton='false'>
+      <update id='org.apache.commons.logging.source' range='[0.0.0,1.1.3)' severity='0'/>
+      <properties size='2'>
+        <property name='org.eclipse.equinox.p2.name' value='org.apache.commons.logging.source'/>
+        <property name='org.eclipse.equinox.p2.bundle.localization' value='plugin'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.apache.commons.logging.source' version='1.1.3'/>
+        <provided namespace='osgi.bundle' name='org.apache.commons.logging.source' version='1.1.3'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='source' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.apache.commons.logging.source' version='1.1.3'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.apache.commons.logging.source&#xA;Bundle-Version: 1.1.3
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='com.google.guava.source' version='17.0.0' singleton='false'>
+      <update id='com.google.guava.source' range='[0.0.0,17.0.0)' severity='0'/>
+      <properties size='2'>
+        <property name='org.eclipse.equinox.p2.name' value='com.google.guava.source'/>
+        <property name='org.eclipse.equinox.p2.bundle.localization' value='plugin'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.google.guava.source' version='17.0.0'/>
+        <provided namespace='osgi.bundle' name='com.google.guava.source' version='17.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='source' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='com.google.guava.source' version='17.0.0'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: com.google.guava.source&#xA;Bundle-Version: 17.0.0
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='openhab-lib-jackson' version='2.4.2' singleton='false'>
+      <update id='openhab-lib-jackson' range='[0.0.0,2.4.2)' severity='0'/>
+      <properties size='1'>
+        <property name='org.eclipse.equinox.p2.name' value='Openhab Jackson Bundle'/>
+      </properties>
+      <provides size='32'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='openhab-lib-jackson' version='2.4.2'/>
+        <provided namespace='osgi.bundle' name='openhab-lib-jackson' version='2.4.2'/>
+        <provided namespace='java.package' name='com.fasterxml.jackson.core' version='2.4.2'/>
+        <provided namespace='java.package' name='com.fasterxml.jackson.core.base' version='2.4.2'/>
+        <provided namespace='java.package' name='com.fasterxml.jackson.core.format' version='2.4.2'/>
+        <provided namespace='java.package' name='com.fasterxml.jackson.core.io' version='2.4.2'/>
+        <provided namespace='java.package' name='com.fasterxml.jackson.core.json' version='2.4.2'/>
+        <provided namespace='java.package' name='com.fasterxml.jackson.core.sym' version='2.4.2'/>
+        <provided namespace='java.package' name='com.fasterxml.jackson.core.type' version='2.4.2'/>
+        <provided namespace='java.package' name='com.fasterxml.jackson.core.util' version='2.4.2'/>
+        <provided namespace='java.package' name='com.fasterxml.jackson.annotation' version='2.4.2'/>
+        <provided namespace='java.package' name='com.fasterxml.jackson.databind' version='2.4.2'/>
+        <provided namespace='java.package' name='com.fasterxml.jackson.databind.annotation' version='2.4.2'/>
+        <provided namespace='java.package' name='com.fasterxml.jackson.databind.cfg' version='2.4.2'/>
+        <provided namespace='java.package' name='com.fasterxml.jackson.databind.deser' version='2.4.2'/>
+        <provided namespace='java.package' name='com.fasterxml.jackson.databind.deser.impl' version='2.4.2'/>
+        <provided namespace='java.package' name='com.fasterxml.jackson.databind.deser.std' version='2.4.2'/>
+        <provided namespace='java.package' name='com.fasterxml.jackson.databind.exc' version='2.4.2'/>
+        <provided namespace='java.package' name='com.fasterxml.jackson.databind.ext' version='2.4.2'/>
+        <provided namespace='java.package' name='com.fasterxml.jackson.databind.introspect' version='2.4.2'/>
+        <provided namespace='java.package' name='com.fasterxml.jackson.databind.jsonFormatVisitors' version='2.4.2'/>
+        <provided namespace='java.package' name='com.fasterxml.jackson.databind.jsonschema' version='2.4.2'/>
+        <provided namespace='java.package' name='com.fasterxml.jackson.databind.jsontype' version='2.4.2'/>
+        <provided namespace='java.package' name='com.fasterxml.jackson.databind.jsontype.impl' version='2.4.2'/>
+        <provided namespace='java.package' name='com.fasterxml.jackson.databind.module' version='2.4.2'/>
+        <provided namespace='java.package' name='com.fasterxml.jackson.databind.node' version='2.4.2'/>
+        <provided namespace='java.package' name='com.fasterxml.jackson.databind.ser' version='2.4.2'/>
+        <provided namespace='java.package' name='com.fasterxml.jackson.databind.ser.impl' version='2.4.2'/>
+        <provided namespace='java.package' name='com.fasterxml.jackson.databind.ser.std' version='2.4.2'/>
+        <provided namespace='java.package' name='com.fasterxml.jackson.databind.type' version='2.4.2'/>
+        <provided namespace='java.package' name='com.fasterxml.jackson.databind.util' version='2.4.2'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <requires size='7'>
+        <required namespace='java.package' name='javax.xml.datatype' range='0.0.0'/>
+        <required namespace='java.package' name='javax.xml.namespace' range='0.0.0'/>
+        <required namespace='java.package' name='javax.xml.parsers' range='0.0.0'/>
+        <required namespace='java.package' name='org.w3c.dom' range='0.0.0'/>
+        <required namespace='java.package' name='org.w3c.dom.bootstrap' range='0.0.0'/>
+        <required namespace='java.package' name='org.w3c.dom.ls' range='0.0.0'/>
+        <required namespace='java.package' name='org.xml.sax' range='0.0.0'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='openhab-lib-jackson' version='2.4.2'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: openhab-lib-jackson&#xA;Bundle-Version: 2.4.2
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.apache.commons.io.source' version='2.2.0' singleton='false'>
+      <update id='org.apache.commons.io.source' range='[0.0.0,2.2.0)' severity='0'/>
+      <properties size='2'>
+        <property name='org.eclipse.equinox.p2.name' value='org.apache.commons.io.source'/>
+        <property name='org.eclipse.equinox.p2.bundle.localization' value='plugin'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.apache.commons.io.source' version='2.2.0'/>
+        <provided namespace='osgi.bundle' name='org.apache.commons.io.source' version='2.2.0'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='source' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.apache.commons.io.source' version='2.2.0'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.apache.commons.io.source&#xA;Bundle-Version: 2.2.0
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.springframework.spring-expression' version='4.0.6.RELEASE' singleton='false'>
+      <update id='org.springframework.spring-expression' range='[0.0.0,4.0.6.RELEASE)' severity='0'/>
+      <properties size='1'>
+        <property name='org.eclipse.equinox.p2.name' value='org.springframework.spring-expression'/>
+      </properties>
+      <provides size='9'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.springframework.spring-expression' version='4.0.6.RELEASE'/>
+        <provided namespace='osgi.bundle' name='org.springframework.spring-expression' version='4.0.6.RELEASE'/>
+        <provided namespace='java.package' name='org.springframework.expression' version='0.0.0'/>
+        <provided namespace='java.package' name='org.springframework.expression.common' version='0.0.0'/>
+        <provided namespace='java.package' name='org.springframework.expression.spel' version='0.0.0'/>
+        <provided namespace='java.package' name='org.springframework.expression.spel.ast' version='0.0.0'/>
+        <provided namespace='java.package' name='org.springframework.expression.spel.standard' version='0.0.0'/>
+        <provided namespace='java.package' name='org.springframework.expression.spel.support' version='0.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <requires size='5'>
+        <required namespace='java.package' name='org.springframework.core' range='0.0.0' optional='true' greedy='false'/>
+        <required namespace='java.package' name='org.springframework.core.convert' range='0.0.0' optional='true' greedy='false'/>
+        <required namespace='java.package' name='org.springframework.core.convert.support' range='0.0.0' optional='true' greedy='false'/>
+        <required namespace='java.package' name='org.springframework.core.style' range='0.0.0' optional='true' greedy='false'/>
+        <required namespace='java.package' name='org.springframework.util' range='0.0.0' optional='true' greedy='false'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.springframework.spring-expression' version='4.0.6.RELEASE'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.springframework.spring-expression&#xA;Bundle-Version: 4.0.6.RELEASE
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.springframework.spring-expression.source' version='4.0.6.RELEASE' singleton='false'>
+      <update id='org.springframework.spring-expression.source' range='[0.0.0,4.0.6.RELEASE)' severity='0'/>
+      <properties size='2'>
+        <property name='org.eclipse.equinox.p2.name' value='org.springframework.spring-expression.source'/>
+        <property name='org.eclipse.equinox.p2.bundle.localization' value='plugin'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.springframework.spring-expression.source' version='4.0.6.RELEASE'/>
+        <provided namespace='osgi.bundle' name='org.springframework.spring-expression.source' version='4.0.6.RELEASE'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='source' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.springframework.spring-expression.source' version='4.0.6.RELEASE'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.springframework.spring-expression.source&#xA;Bundle-Version: 4.0.6.RELEASE
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.apache.commons.fileupload' version='1.3.1' singleton='false'>
+      <update id='org.apache.commons.fileupload' range='[0.0.0,1.3.1)' severity='0'/>
+      <properties size='4'>
+        <property name='org.eclipse.equinox.p2.name' value='Apache Commons FileUpload'/>
+        <property name='org.eclipse.equinox.p2.description' value='The Apache Commons FileUpload component provides a simple yet flexible means of adding support for multipart    file upload functionality to servlets and web applications.'/>
+        <property name='org.eclipse.equinox.p2.provider' value='The Apache Software Foundation'/>
+        <property name='org.eclipse.equinox.p2.doc.url' value='http://commons.apache.org/proper/commons-fileupload/'/>
+      </properties>
+      <provides size='8'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.apache.commons.fileupload' version='1.3.1'/>
+        <provided namespace='osgi.bundle' name='org.apache.commons.fileupload' version='1.3.1'/>
+        <provided namespace='java.package' name='org.apache.commons.fileupload' version='1.3.1'/>
+        <provided namespace='java.package' name='org.apache.commons.fileupload.disk' version='1.3.1'/>
+        <provided namespace='java.package' name='org.apache.commons.fileupload.portlet' version='1.3.1'/>
+        <provided namespace='java.package' name='org.apache.commons.fileupload.servlet' version='1.3.1'/>
+        <provided namespace='java.package' name='org.apache.commons.fileupload.util' version='1.3.1'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <requires size='4'>
+        <required namespace='java.package' name='javax.servlet' range='0.0.0'/>
+        <required namespace='java.package' name='javax.servlet.http' range='0.0.0'/>
+        <required namespace='java.package' name='org.apache.commons.io' range='0.0.0'/>
+        <required namespace='java.package' name='org.apache.commons.io.output' range='0.0.0'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.apache.commons.fileupload' version='1.3.1'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.apache.commons.fileupload&#xA;Bundle-Version: 1.3.1
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.apache.felix.webconsole' version='4.2.2' singleton='false'>
+      <update id='org.apache.felix.webconsole' range='[0.0.0,4.2.2)' severity='0'/>
+      <properties size='4'>
+        <property name='org.eclipse.equinox.p2.name' value='Apache Felix Web Management Console'/>
+        <property name='org.eclipse.equinox.p2.description' value='Web Based Management Console for OSGi Frameworks. See        http://felix.apache.org/site/apache-felix-web-console.html for more        information on this bundle.'/>
+        <property name='org.eclipse.equinox.p2.provider' value='The Apache Software Foundation'/>
+        <property name='org.eclipse.equinox.p2.doc.url' value='http://felix.apache.org/site/apache-felix-web-console.html'/>
+      </properties>
+      <provides size='6'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.apache.felix.webconsole' version='4.2.2'/>
+        <provided namespace='osgi.bundle' name='org.apache.felix.webconsole' version='4.2.2'/>
+        <provided namespace='java.package' name='org.apache.felix.webconsole' version='3.1.3'/>
+        <provided namespace='java.package' name='org.apache.felix.webconsole.bundleinfo' version='1.0.0'/>
+        <provided namespace='java.package' name='org.apache.felix.webconsole.i18n' version='1.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <requires size='14'>
+        <required namespace='java.package' name='javax.servlet' range='2.4.0'/>
+        <required namespace='java.package' name='javax.servlet.http' range='2.4.0'/>
+        <required namespace='java.package' name='org.apache.commons.fileupload' range='[1.2.0,2.0.0)'/>
+        <required namespace='java.package' name='org.apache.commons.fileupload.disk' range='[1.2.0,2.0.0)'/>
+        <required namespace='java.package' name='org.apache.commons.fileupload.servlet' range='[1.2.0,2.0.0)'/>
+        <required namespace='java.package' name='org.apache.commons.io' range='[1.4.0,3.0.0)'/>
+        <required namespace='java.package' name='org.apache.felix.webconsole' range='[3.1.0,3.2.0)'/>
+        <required namespace='java.package' name='org.apache.felix.webconsole.bundleinfo' range='[1.0.0,1.1.0)'/>
+        <required namespace='java.package' name='org.json' range='0.0.0'/>
+        <required namespace='java.package' name='org.osgi.framework' range='[1.4.0,2.0.0)'/>
+        <required namespace='java.package' name='org.osgi.service.http' range='[1.2.0,2.0.0)'/>
+        <required namespace='java.package' name='org.osgi.service.packageadmin' range='[1.2.0,2.0.0)'/>
+        <required namespace='java.package' name='org.osgi.service.startlevel' range='[1.1.0,2.0.0)'/>
+        <required namespace='java.package' name='org.osgi.util.tracker' range='[1.3.0,2.0.0)'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.apache.felix.webconsole' version='4.2.2'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.apache.felix.webconsole&#xA;Bundle-Version: 4.2.2
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='openhab-lib-scala' version='2.11.2' singleton='false'>
+      <update id='openhab-lib-scala' range='[0.0.0,2.11.2)' severity='0'/>
+      <properties size='1'>
+        <property name='org.eclipse.equinox.p2.name' value='Openhab Scala Bundle'/>
+      </properties>
+      <provides size='76'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='openhab-lib-scala' version='2.11.2'/>
+        <provided namespace='osgi.bundle' name='openhab-lib-scala' version='2.11.2'/>
+        <provided namespace='java.package' name='scala' version='2.11.2'/>
+        <provided namespace='java.package' name='scala.annotation' version='2.11.2'/>
+        <provided namespace='java.package' name='scala.annotation.meta' version='2.11.2'/>
+        <provided namespace='java.package' name='scala.annotation.unchecked' version='2.11.2'/>
+        <provided namespace='java.package' name='scala.beans' version='2.11.2'/>
+        <provided namespace='java.package' name='scala.collection' version='2.11.2'/>
+        <provided namespace='java.package' name='scala.collection.concurrent' version='2.11.2'/>
+        <provided namespace='java.package' name='scala.collection.convert' version='2.11.2'/>
+        <provided namespace='java.package' name='scala.collection.generic' version='2.11.2'/>
+        <provided namespace='java.package' name='scala.collection.immutable' version='2.11.2'/>
+        <provided namespace='java.package' name='scala.collection.mutable' version='2.11.2'/>
+        <provided namespace='java.package' name='scala.collection.parallel' version='2.11.2'/>
+        <provided namespace='java.package' name='scala.collection.parallel.immutable' version='2.11.2'/>
+        <provided namespace='java.package' name='scala.collection.parallel.mutable' version='2.11.2'/>
+        <provided namespace='java.package' name='scala.collection.script' version='2.11.2'/>
+        <provided namespace='java.package' name='scala.compat' version='2.11.2'/>
+        <provided namespace='java.package' name='scala.concurrent' version='2.11.2'/>
+        <provided namespace='java.package' name='scala.concurrent.duration' version='2.11.2'/>
+        <provided namespace='java.package' name='scala.concurrent.forkjoin' version='2.11.2'/>
+        <provided namespace='java.package' name='scala.concurrent.util' version='2.11.2'/>
+        <provided namespace='java.package' name='scala.io' version='2.11.2'/>
+        <provided namespace='java.package' name='scala.math' version='2.11.2'/>
+        <provided namespace='java.package' name='scala.ref' version='2.11.2'/>
+        <provided namespace='java.package' name='scala.reflect' version='2.11.2'/>
+        <provided namespace='java.package' name='scala.reflect.macros.internal' version='2.11.2'/>
+        <provided namespace='java.package' name='scala.runtime' version='2.11.2'/>
+        <provided namespace='java.package' name='scala.sys' version='2.11.2'/>
+        <provided namespace='java.package' name='scala.sys.process' version='2.11.2'/>
+        <provided namespace='java.package' name='scala.text' version='2.11.2'/>
+        <provided namespace='java.package' name='scala.util' version='2.11.2'/>
+        <provided namespace='java.package' name='scala.util.control' version='2.11.2'/>
+        <provided namespace='java.package' name='scala.util.hashing' version='2.11.2'/>
+        <provided namespace='java.package' name='scala.util.matching' version='2.11.2'/>
+        <provided namespace='java.package' name='scala.reflect.api' version='2.11.2'/>
+        <provided namespace='java.package' name='scala.reflect.io' version='2.11.2'/>
+        <provided namespace='java.package' name='scala.reflect.macros' version='2.11.2'/>
+        <provided namespace='java.package' name='scala.reflect.macros.blackbox' version='2.11.2'/>
+        <provided namespace='java.package' name='scala.reflect.macros.whitebox' version='2.11.2'/>
+        <provided namespace='java.package' name='scala.reflect.runtime' version='2.11.2'/>
+        <provided namespace='java.package' name='scala.xml' version='2.11.2'/>
+        <provided namespace='java.package' name='scala.xml.dtd' version='2.11.2'/>
+        <provided namespace='java.package' name='scala.xml.factory' version='2.11.2'/>
+        <provided namespace='java.package' name='scala.xml.include' version='2.11.2'/>
+        <provided namespace='java.package' name='scala.xml.include.sax' version='2.11.2'/>
+        <provided namespace='java.package' name='scala.xml.parsing' version='2.11.2'/>
+        <provided namespace='java.package' name='scala.xml.persistent' version='2.11.2'/>
+        <provided namespace='java.package' name='scala.xml.pull' version='2.11.2'/>
+        <provided namespace='java.package' name='scala.xml.transform' version='2.11.2'/>
+        <provided namespace='java.package' name='akka' version='2.3.5'/>
+        <provided namespace='java.package' name='akka.actor' version='2.3.5'/>
+        <provided namespace='java.package' name='akka.actor.dsl' version='2.3.5'/>
+        <provided namespace='java.package' name='akka.actor.dungeon' version='2.3.5'/>
+        <provided namespace='java.package' name='akka.dispatch' version='2.3.5'/>
+        <provided namespace='java.package' name='akka.dispatch.sysmsg' version='2.3.5'/>
+        <provided namespace='java.package' name='akka.event' version='2.3.5'/>
+        <provided namespace='java.package' name='akka.event.japi' version='2.3.5'/>
+        <provided namespace='java.package' name='akka.event.slf4j' version='2.3.5'/>
+        <provided namespace='java.package' name='akka.io' version='2.3.5'/>
+        <provided namespace='java.package' name='akka.japi' version='2.3.5'/>
+        <provided namespace='java.package' name='akka.japi.pf' version='2.3.5'/>
+        <provided namespace='java.package' name='akka.pattern' version='2.3.5'/>
+        <provided namespace='java.package' name='akka.routing' version='2.3.5'/>
+        <provided namespace='java.package' name='akka.serialization' version='2.3.5'/>
+        <provided namespace='java.package' name='akka.util' version='2.3.5'/>
+        <provided namespace='java.package' name='com.fasterxml.jackson.module.scala' version='2.4.2'/>
+        <provided namespace='java.package' name='com.fasterxml.jackson.module.scala.deser' version='2.4.2'/>
+        <provided namespace='java.package' name='com.fasterxml.jackson.module.scala.experimental' version='2.4.2'/>
+        <provided namespace='java.package' name='com.fasterxml.jackson.module.scala.introspect' version='2.4.2'/>
+        <provided namespace='java.package' name='com.fasterxml.jackson.module.scala.modifiers' version='2.4.2'/>
+        <provided namespace='java.package' name='com.fasterxml.jackson.module.scala.ser' version='2.4.2'/>
+        <provided namespace='java.package' name='com.fasterxml.jackson.module.scala.util' version='2.4.2'/>
+        <provided namespace='java.package' name='com.typesafe.config' version='1.2.1'/>
+        <provided namespace='java.package' name='com.typesafe.config.impl' version='1.2.1'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <requires size='23'>
+        <required namespace='java.package' name='com.fasterxml.jackson.annotation' range='[2.4.0,3.0.0)'/>
+        <required namespace='java.package' name='com.fasterxml.jackson.core' range='[2.4.0,3.0.0)'/>
+        <required namespace='java.package' name='com.fasterxml.jackson.core.type' range='[2.4.0,3.0.0)'/>
+        <required namespace='java.package' name='com.fasterxml.jackson.databind' range='[2.4.0,3.0.0)'/>
+        <required namespace='java.package' name='com.fasterxml.jackson.databind.annotation' range='[2.4.0,3.0.0)'/>
+        <required namespace='java.package' name='com.fasterxml.jackson.databind.cfg' range='[2.4.0,3.0.0)'/>
+        <required namespace='java.package' name='com.fasterxml.jackson.databind.deser' range='[2.4.0,3.0.0)'/>
+        <required namespace='java.package' name='com.fasterxml.jackson.databind.deser.std' range='[2.4.0,3.0.0)'/>
+        <required namespace='java.package' name='com.fasterxml.jackson.databind.introspect' range='[2.4.0,3.0.0)'/>
+        <required namespace='java.package' name='com.fasterxml.jackson.databind.jsonFormatVisitors' range='[2.4.0,3.0.0)'/>
+        <required namespace='java.package' name='com.fasterxml.jackson.databind.jsonschema' range='[2.4.0,3.0.0)'/>
+        <required namespace='java.package' name='com.fasterxml.jackson.databind.jsontype' range='[2.4.0,3.0.0)'/>
+        <required namespace='java.package' name='com.fasterxml.jackson.databind.ser' range='[2.4.0,3.0.0)'/>
+        <required namespace='java.package' name='com.fasterxml.jackson.databind.ser.impl' range='[2.4.0,3.0.0)'/>
+        <required namespace='java.package' name='com.fasterxml.jackson.databind.ser.std' range='[2.4.0,3.0.0)'/>
+        <required namespace='java.package' name='com.fasterxml.jackson.databind.type' range='[2.4.0,3.0.0)'/>
+        <required namespace='java.package' name='com.fasterxml.jackson.databind.util' range='[2.4.0,3.0.0)'/>
+        <required namespace='java.package' name='com.google.protobuf' range='0.0.0' optional='true' greedy='false'/>
+        <required namespace='java.package' name='sun.misc' range='0.0.0' optional='true' greedy='false'/>
+        <required namespace='java.package' name='javax.xml.parsers' range='0.0.0'/>
+        <required namespace='java.package' name='org.xml.sax' range='0.0.0'/>
+        <required namespace='java.package' name='org.xml.sax.ext' range='0.0.0'/>
+        <required namespace='java.package' name='org.xml.sax.helpers' range='0.0.0'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='openhab-lib-scala' version='2.11.2'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: openhab-lib-scala&#xA;Bundle-Version: 2.11.2
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='com.google.guava' version='16.0.0' singleton='false'>
+      <update id='com.google.guava' range='[0.0.0,16.0.0)' severity='0'/>
+      <properties size='2'>
+        <property name='org.eclipse.equinox.p2.name' value='Guava: Google Core Libraries for Java'/>
+        <property name='org.eclipse.equinox.p2.description' value='Guava is a suite of core and expanded libraries that include    utility classes, google&apos;s collections, io classes, and much    much more.    Guava has only one code dependency - javax.annotation,    per the JSR-305 spec.'/>
+      </properties>
+      <provides size='18'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.google.guava' version='16.0.0'/>
+        <provided namespace='osgi.bundle' name='com.google.guava' version='16.0.0'/>
+        <provided namespace='java.package' name='com.google.common.net' version='16.0.0'/>
+        <provided namespace='java.package' name='com.google.common.html' version='16.0.0'/>
+        <provided namespace='java.package' name='com.google.common.collect' version='16.0.0'/>
+        <provided namespace='java.package' name='com.google.common.primitives' version='16.0.0'/>
+        <provided namespace='java.package' name='com.google.common.base' version='16.0.0'/>
+        <provided namespace='java.package' name='com.google.common.escape' version='16.0.0'/>
+        <provided namespace='java.package' name='com.google.common.cache' version='16.0.0'/>
+        <provided namespace='java.package' name='com.google.common.eventbus' version='16.0.0'/>
+        <provided namespace='java.package' name='com.google.common.util.concurrent' version='16.0.0'/>
+        <provided namespace='java.package' name='com.google.common.hash' version='16.0.0'/>
+        <provided namespace='java.package' name='com.google.common.io' version='16.0.0'/>
+        <provided namespace='java.package' name='com.google.common.xml' version='16.0.0'/>
+        <provided namespace='java.package' name='com.google.common.reflect' version='16.0.0'/>
+        <provided namespace='java.package' name='com.google.common.math' version='16.0.0'/>
+        <provided namespace='java.package' name='com.google.common.annotations' version='16.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <requires size='3'>
+        <required namespace='java.package' name='javax.annotation' range='0.0.0' optional='true' greedy='false'/>
+        <required namespace='java.package' name='javax.inject' range='0.0.0' optional='true' greedy='false'/>
+        <required namespace='java.package' name='sun.misc' range='0.0.0' optional='true' greedy='false'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='com.google.guava' version='16.0.0'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: com.google.guava&#xA;Bundle-Version: 16.0.0
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+  </units>
+</repository>
